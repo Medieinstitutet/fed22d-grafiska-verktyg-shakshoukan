@@ -13,6 +13,6 @@ The header is fixed to the page top so the user always has easy access to the na
 
 The main menu for navigating the page will change depending on the visitors screen size. Therefore we designed a menu with visible links for the desktop view located in the header element. Then for tablet and mobile view we added a hamburger icon located in the header element to open the menu in a separate element on top of the page.
 
-We designed a slider to display three cards and a slider navigation with arrows and dots. The visitor can shift to the previous or the next card depending on which arrow is being cliked on and the dots indicate which card is currently active.
+We designed a slider to display three cards and a slider navigation with arrows and dots. The visitor can shift to the previous or the next card depending on which arrow is being clicked on and the dots indicate which card is currently active.
 
 A cookie box is fixed to the viewport bottom until clicked, then it disappears. 
