@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9677287&assignment_repo_type=AssignmentRepo)
 
 # About the design
-We decided to create a movie premiere design for a fictional movie called Welcome to Mars. The landing page contains a big image from the movie, the mobie title and a short description as well as buttons for viewing the trailer and to read more information. The layout of the landing page is image-focused to give the user a good idea of the look and mood of the movie, and contains everything you need to find out more if you're interested. We've made three mockup views for mobile, tablet and desktop. The look and feel of the page should be similar on all three views but elements can shift for better and more efficient use of space and make a better user experience.
+We decided to create a movie premiere design for a fictional movie called Welcome to Mars. The landing page contains a big image from the movie, the movie title and a short description as well as buttons for viewing the trailer and to read more information. The layout of the landing page is image-focused to give the user a good idea of the look and mood of the movie, and contains everything you need to find out more if you're interested. We've made three mockup views for mobile, tablet and desktop. The look and feel of the page should be similar on all three views but elements can shift for better and more efficient use of space and make a better user experience.
 
 Mockups are made in Figma where we have two separate pages. One for components that are used in the design templates and one for the different views. As it's a small page we deemed it easier for the developer to overview if all three views were located in the same page.
 
@@ -13,6 +13,6 @@ The header is fixed to the page top so the user always has easy access to the na
 
 The main menu for navigating the page will change depending on the visitors screen size. Therefore we designed a menu with visible links for the desktop view located in the header element. Then for tablet and mobile view we added a hamburger icon located in the header element to open the menu in a separate element on top of the page.
 
-We designed a slider to display three cards and a slider navigation with arrows and dots. If a visitor clicks the arrows the card shifts to the next in order and the dots indicate which card is currently active.
+We designed a slider to display three cards and a slider navigation with arrows and dots. The visitor can shift to the previous or the next card depending on which arrow is being cliked on and the dots indicate which card is currently active.
 
-Cookie box is fixed to the viewport bottom until clicked, then it disappears. 
+A cookie box is fixed to the viewport bottom until clicked, then it disappears. 
