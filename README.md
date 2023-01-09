@@ -17,4 +17,3 @@ We designed a slider to display three cards and a slider navigation with arrows 
 
 A cookie box is fixed to the viewport bottom until clicked, then it disappears. 
 
-test
