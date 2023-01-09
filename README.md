@@ -16,3 +16,5 @@ The main menu for navigating the page will change depending on the visitors scre
 We designed a slider to display three cards and a slider navigation with arrows and dots. The visitor can shift to the previous or the next card depending on which arrow is being clicked on and the dots indicate which card is currently active.
 
 A cookie box is fixed to the viewport bottom until clicked, then it disappears. 
+
+test
