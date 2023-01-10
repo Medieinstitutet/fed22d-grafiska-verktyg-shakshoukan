@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=East+Sea+Dokdo&family=Inter&display=swap');
 
 header {
     border: 0.5rem solid coral;
 }
 
 .sectionOne {
-    border: 0.5rem solid coral;
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-size: cover;
@@ -17,53 +16,84 @@ header {
 
 h1 {
     display: block;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
     text-align: center;
-    margin-top: 20rem;
-    margin-right: auto;
-    width: 100%;
-    color: white;
+    margin-left: 5rem;
+    margin-top: -4rem;
+    position: absolute;
+    top: 24rem;      
+    color: #FFFFFF;      
+}
+
+.logo {
+    display: block;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 6rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 20.4rem;  
+    margin-left: 5rem;
+    color: #FFFFFF;    
 }
 
 h2 {
     position: absolute;
-    width: 322px;
-    height: 30px;
-    left: 31px;
-    top: 590px;
-
-    font-family: 'Dosis';
+    width: 20rem;
+    height: 1.8rem;
+    left: 1.2rem;
+    margin-top: 29rem;
+    font-family: 'Dosis', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     letter-spacing: 0.2em;
-
     color: #FFFFFF;
 }
 
 .intro {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: 'Inter', sans-serif;
     color: white;
     display: block;
     padding: 1rem;
     margin: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
     display: none;
 }
 
 .trailerBtn {
-    margin-top: 20rem;
-    margin-right: auto;
-    width: 100%;
-    color: red;
+    background-color: #BF3111;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    width: 9rem;
+    height: 2.8rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
     display: none;
 }
 
 .infoBtn {
-    margin-top: 20rem;
-    margin-right: auto;
-    width: 100%;
-    color: red;
+    background-color: #BF3111;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    width: 9rem;
+    height: 2.8rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
     display: none;
 }
 
