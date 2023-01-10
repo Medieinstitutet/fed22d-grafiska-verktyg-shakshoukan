@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=East+Sea+Dokdo&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=East+Sea+Dokdo&family=Inter&display=swap');
 
 header {
     border: 0.5rem solid coral;
@@ -17,8 +17,8 @@ header {
 h1 {
     display: block;
     font-family: 'Dosis', sans-serif;
-    font-size: 2rem;
-    font-style: normal;
+    font-size: 2rem;                      // Angivna font-sizes har jag lagt i tablet-läget
+    font-weight: 400;
     text-align: center;
     margin-left: 5rem;
     margin-top: 20rem;
@@ -41,12 +41,11 @@ h2 {
     position: absolute;
     width: 20rem;
     height: 1.8rem;
-    left: 1.2rem;
+    margin-left: 3.6rem;
     margin-top: 29rem;
     font-family: 'Dosis', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
     line-height: 1.8rem;
     letter-spacing: 0.2em;
     color: #FFFFFF;
@@ -55,38 +54,21 @@ h2 {
 .intro {
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
+    line-height: 1.4;
     color: white;
-    display: block;
-    padding: 1rem;
-    margin: auto;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 32rem;
     display: none;
 }
 
-.trailerBtn {
+.trailerBtn, .infoBtn {
     background-color: #BF3111;
     color: white;
     margin-top: 2rem;
-    margin-left: 3.3rem;
+    margin-left: 10rem;
     margin-bottom: 1rem;
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    width: 9rem;
-    height: 2.8rem;
-    border-radius: 4px;
-    text-align: center;
-    cursor: pointer;
-    padding: 5px;
-    display: none;
-}
-
-.infoBtn {
-    background-color: #BF3111;
-    color: white;
-    margin-top: 2rem;
-    margin-left: 3.3rem;
-    margin-bottom: 1rem;
     font-family: 'Inter', sans-serif;
     width: 9rem;
     height: 2.8rem;
