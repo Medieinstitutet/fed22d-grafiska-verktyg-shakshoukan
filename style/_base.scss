@@ -1,14 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 header {
     border: 0.5rem solid coral;
 }
 
 .sectionOne {
     border: 0.5rem solid coral;
-    height: 100vh;
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 58% 20%;
+    position: relative;
 }
 
-.logotype {
-    background-image: url("..assets/logotype.png");
+h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20rem;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 31px;
+    top: 590px;
+
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+}
+
+.intro {
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+
+.trailerBtn {
+    margin-top: 20rem;
+    margin-right: auto;
+    width: 100%;
+    color: red;
+}
+
+.infoBtn {
+    margin-top: 20rem;
+    margin-right: auto;
+    width: 100%;
+    color: red;
 }
 
 .sectionTwo {
