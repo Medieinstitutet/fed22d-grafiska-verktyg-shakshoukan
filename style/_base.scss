@@ -1,3 +1,81 @@
-body {
-    background-color: red;
+header {
+  border: 0.5rem solid coral;
+}
+
+button {
+  white-space: nowrap;
+}
+
+h6 {
+  font-family: "Dosis";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #eddfd2;
+  margin: 20px 0;
+}
+
+.sectionOne {
+  border: 0.5rem solid coral;
+  height: 100vh;
+}
+
+.sectionTwo {
+  border: 0.5rem solid coral;
+  height: 100vh;
+}
+
+.sectionThree {
+  border: 0.5rem solid coral;
+  height: 100vh;
+}
+
+.cookies {
+  //   border: 0.5rem solid coral;
+
+  position: fixed;
+  bottom: 0;
+  background: #000000;
+  padding-bottom: 2.8rem;
+
+  p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #eddfd2;
+    padding: 1rem;
+  }
+}
+
+.cookies-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.reject-button {
+  box-sizing: border-box;
+  background: #eddfd2;
+  border: 2px solid #eb5616;
+  font-family: "Inter";
+  padding: 0.7rem;
+}
+
+.allow-button {
+  background: #bf3111;
+  border: 2px solid#bf3111;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0.7rem;
+}
+
+footer {
+  border: 0.5rem solid coral;
 }
