@@ -3,18 +3,24 @@ header {
     height: 0vh;
 }
 
+.marsIcon {
+    height: 3rem;
+    width: 3rem;
+}
+
 .checkBtn {
+    top: 1rem;
     right: 1rem;
     position: fixed;
     height: 3.4rem;
     width: 4rem;
-    opacity: 0%;
+    opacity: 0;
     z-index: 7;
     cursor: pointer;
 }
 
 .menuBtn {
-    top: 2rem;
+    top: 1rem;
     right: 1rem;
     position: fixed;
     height: 3.4rem;
@@ -35,6 +41,7 @@ header {
     background-color: #EDDFD2;
 }
 
+// Har inte fixat js för nav, därför är den lite transparent för tillfället
 nav {
     padding-top: 3.5rem;
     z-index: 5;
@@ -49,6 +56,7 @@ nav {
 
 a {
     margin-bottom: 2.5rem;
+    font-size: 1.4rem;
     color: #EDDFD2;
     text-decoration: none;
 }

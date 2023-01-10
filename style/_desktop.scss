@@ -1,0 +1,30 @@
+header {
+    background-color: aqua;
+}
+
+.marsIcon {
+    display: flex;
+    position: fixed;
+    margin-left: 47%;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.checkBtn {
+    display: none;
+}
+
+.menuBtn {
+    display: none;
+}
+
+nav {
+    padding-top: 1rem;
+    background: transparent;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 1.4rem;
+}
