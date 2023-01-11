@@ -23,4 +23,29 @@ header {
 
 footer {
     border: 0.5rem solid coral;
+    background-color: #BF3111;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    
+}
+
+hr {
+    width:15%;
+    color: white;
+}
+
+.marsIcon {
+    width: 55px;
+    height: 55px;
 }
