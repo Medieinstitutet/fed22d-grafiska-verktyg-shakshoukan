@@ -1,17 +1,15 @@
-import './style/style.scss';
+// import './style/style.scss';
 
 // Om möjligt, lägg alla variabler längst upp, så har vi ordning direkt
-console.log('hej');
+
 
 const checkBtn = document.querySelector('#checkBtn');
 const menu = document.querySelector('#menu');
 
 function toggleMenu() {
-    if (checkbox.checked) {
-        menu.classList.toggle('showMenu');
-    }
+    menu.classList.toggle('showMenu');
 }
-
+console.log(menu);
 
 checkBtn.addEventListener('change', toggleMenu); 
 
