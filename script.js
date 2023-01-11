@@ -6,11 +6,13 @@
 const checkBtn = document.querySelector('#checkBtn');
 const menu = document.querySelector('#menu');
 
+
 function toggleMenu() {
     menu.classList.toggle('showMenu');
 }
-console.log(menu);
+
 
 checkBtn.addEventListener('change', toggleMenu); 
+
 
 
