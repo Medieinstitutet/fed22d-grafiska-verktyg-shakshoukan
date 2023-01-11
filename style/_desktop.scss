@@ -5,7 +5,7 @@ header {
 .marsIcon {
     display: flex;
     position: fixed;
-    margin-left: 47%;
+    margin-left: 49%;
     height: 3.5rem;
     width: 3.5rem;
 }
@@ -23,6 +23,8 @@ nav {
     background: transparent;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 8%;
+    width: 80vw;
 }
 
 a {
