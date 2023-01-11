@@ -1,8 +1,17 @@
 footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: start;
+    justify-content: space-between;
     padding: 50px;
+    align-items: center; 
+}
+
+footer .copyright {
+    margin-right: 100px;
+}
+
+footer .contactInfo {
+    margin-right: 400px;
 }
 
 .marsIcon {
