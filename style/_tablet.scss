@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    padding: 50px;
+}
+
+.marsIcon {
+    width: 70px;
+    height: 70px;
+}
+
+hr {
+    display: none;
+}
+
+ul {
+    left: 30%;
+}
