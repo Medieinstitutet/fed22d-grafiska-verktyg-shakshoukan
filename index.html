@@ -5,32 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Inter&family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Roboto:wght@100;400;700&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Inter&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=East+Sea+Dokdo&family=Inter&display=swap">
-  </head>
-  <body>
+    <script src="https://kit.fontawesome.com/086edfea1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <header>
-      <img />
+        <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon">
+        
+        <input type="checkbox" class="checkBtn" id="checkBtn">
+        <button class="menuBtn">
+            <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburgerMenu"></span>
+        </button>
 
-      <button class="menuBtn"></button>
-
-      <nav>
-        <a href="">Behind the scenes</a>
-        <a href="">About</a>
-        <a href="">Cast and crew</a>
-        <a href="">Tickets</a>
-      </nav>
+        <nav id="menu">
+            <a href="">Behind the scenes</a>
+            <a href="#about" id="aboutLink">About</a>
+            <a href="">Cast and crew</a>
+            <a href="#tickets" id="ticketsLink">Tickets</a>
+        </nav>
     </header>
 
     <section class="sectionOne">
@@ -46,7 +44,7 @@
         <button class="infoBtn">More info</button>
     </section>
 
-    <section class="sectionTwo">
+    <section class="sectionTwo" id="about">
       <h3>About the film</h3>
 
       <p>
@@ -59,11 +57,11 @@
         true purpose of their mission, leading them to question whether they can trust their superiors and each other.
       </p>
 
-      <img src="" alt="" />
-      <img src="" alt="" />
+      <img src="" alt="" >
+      <img src="" alt="" >
     </section>
 
-    <section class="sectionThree">
+    <section class="sectionThree" id="tickets">
       <h3>Buy tickets</h3>
 
       <article>
@@ -110,6 +108,7 @@
 
         <button>Subscribe for updates</button>
       </article>
+
     </section>
 
     <!--Ska cookies vara en aside eller div?-->
@@ -128,7 +127,7 @@
     </div>
 
     <footer>
-      <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55px" />
+      <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55px">
 
       <ul class="contactInfo">
         <li>Contact</li>
@@ -136,10 +135,10 @@
         <li>Privacy Policy</li>
       </ul>
 
-      <hr />
+      <hr>
 
       <span class="copyright"
-        >Welcome to mars <br />
+        >Welcome to mars <br>
         Ⓒ2023 Paramount</span
       >
     </footer>
