@@ -17,11 +17,13 @@ function toggleMenu() {
 function goToSection2() {
     menu.classList.toggle('showMenu');
     hamburger.classList.toggle('fa-xmark');
+    hamburger.classList.toggle('fa-bars');
 }
 
 function goToSection3() {
     menu.classList.toggle('showMenu');
     hamburger.classList.toggle('fa-xmark');
+    hamburger.classList.toggle('fa-bars');
 } 
 
 
