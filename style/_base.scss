@@ -117,20 +117,71 @@ h3 {
     color: #EDDFD2;
 }
 
-.tba {
+.subscriptionWrap {
+    position: absolute;
+    width: 22rem;
+    height: 16.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    top: 142rem;
+    background-color: #EDDFD2;
+} 
 
+p.ToBeAnnounced {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 21rem;
+    height: 3.25rem;
+    left: 0.8rem;
+    top: 1rem;
 }
 
-.notification {
-
+p.notification {
+    font-size: 0.9;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #000000;
+    position: absolute;
+    width: 18.3rem;
+    height: 3.25rem;
+    left: 1rem;
+    top: 4rem;
 }
 
 .email {
-    
+    font-size: 0.9;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    border: none;
+    position: absolute;
+    width: 18.1rem;
+    height: 2.25rem;
+    left: 1rem;
+    top: 8.5rem;
 }
 
 .subscribeBtn {
-
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #001A5C;
+    border: none;
+    position: absolute;
+    width: 18.1rem;
+    height: 2.8rem;
+    left: 1rem;
+    top: 11.5rem;
 }
 
 .cookies {
