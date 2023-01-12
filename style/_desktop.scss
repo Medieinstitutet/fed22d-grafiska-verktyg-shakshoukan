@@ -1,0 +1,23 @@
+.sectionTwo {
+    padding: 150px;
+    div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pic1{
+        width: 380px;
+        height: 400px;
+        display: block;
+    }
+    .pic2 {
+        width: 380px;
+        height: 400px;
+    }
+    h3 {
+        text-align: left;
+    }
+    p {
+        width: 380px;
+        height: 400px;
+    }
+}
