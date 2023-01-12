@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 3.4rem;
     margin-left: 16rem;
@@ -33,4 +34,50 @@ h4 {
     margin: 28px 0px 28px 30px;
 }   
 
+.cookies {
+  display: flex;
+  padding-bottom: 0;
 
+  p {
+    margin: 0.4rem;
+    padding: 0;
+  }
+
+  .cookies-buttons {
+    margin: 1.5rem 1rem 1.5rem 5rem;
+  }
+}
+
+h6 {
+  text-align: left;
+  margin: 0.4rem;
+  padding-top: 0;
+}
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+footer .copyright {
+  margin-right: 100px;
+}
+
+footer .contactInfo {
+  margin-right: 400px;
+}
+
+.marsIcon {
+  width: 70px;
+  height: 70px;
+}
+
+hr {
+  display: none;
+}
+
+ul {
+  left: 30%;
+}
