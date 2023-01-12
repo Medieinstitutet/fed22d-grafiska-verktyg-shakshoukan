@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
 header {
     height: 0vh;
 }
@@ -25,26 +29,25 @@ header {
 }
 
 .menuBtn {
+    display: block;
     top: 1rem;
     right: 1rem;
     position: fixed;
     height: 3.4rem;
     width: 4rem;
-    border: 0;
-    background: transparent;
+    border: none;
+    background: none;
     cursor: pointer;
     pointer-events: none;
     z-index: 6;
 }
 
-.menuBtn span {
-    margin: 0.5rem;
-    display: block;
-    height: 0.2rem;
-    width: 2rem;
-    border-radius: 0.5rem;
-    background-color: #EDDFD2;
+.fa-bars {
+  color: #EDDFD2;
 }
+
+
+/*
 
 .checkBtn:checked + .menuBtn span {
     position: absolute;
@@ -63,7 +66,7 @@ header {
 
 .checkBtn:checked + .menuBtn span:nth-child(2) {
     opacity: 0;
-}
+} */
 
 nav {
     top: 0;
