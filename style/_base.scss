@@ -8,6 +8,13 @@ body {
 
 header {
     height: 0vh;
+    position: fixed;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+header.hide {
+  opacity: 0;
 }
 
 .marsIcon {
@@ -62,7 +69,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 nav.showMenu {
