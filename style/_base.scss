@@ -46,28 +46,6 @@ header {
   color: #EDDFD2;
 }
 
-
-/*
-
-.checkBtn:checked + .menuBtn span {
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-}
-
-.checkBtn:checked + .menuBtn span:nth-child(1) {
-    transform-origin: center center;
-    transform: rotate(45deg);
-}
-
-.checkBtn:checked + .menuBtn span:nth-child(3) {
-    transform-origin: center center;
-    transform: rotate(-45deg);
-}
-
-.checkBtn:checked + .menuBtn span:nth-child(2) {
-    opacity: 0;
-} */
-
 nav {
     top: 0;
     left: 100%;
@@ -92,8 +70,8 @@ a {
     font-size: 1.4rem;
     color: #EDDFD2;
     text-decoration: none;
-  //border: 0.5rem solid coral;
-  height: 0;
+    text-transform: capitalize;
+    height: 0;
 }
 
 button {
