@@ -1,51 +1,119 @@
 header {
-    border: 0.5rem solid coral;
+  border: 0.5rem solid coral;
+}
+
+button {
+  white-space: nowrap;
+}
+
+h6 {
+  font-family: 'Dosis';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #eddfd2;
+  margin: 0;
+  padding-top: 1.8rem;
 }
 
 .sectionOne {
-    border: 0.5rem solid coral;
-    height: 100vh;
+  border: 0.5rem solid coral;
+  height: 100vh;
 }
 
 .sectionTwo {
-    border: 0.5rem solid coral;
-    height: 100vh;
+  border: 0.5rem solid coral;
+  height: 100vh;
 }
 
 .sectionThree {
-    border: 0.5rem solid coral;
-    height: 100vh;
+  border: 0.5rem solid coral;
+  height: 100vh;
 }
 
 .cookies {
-    border: 0.5rem solid coral;
+  //   border: 0.5rem solid coral;
+
+  position: fixed;
+  bottom: 0;
+  background: #000000;
+  padding-bottom: 2.8rem;
+  width: 100%;
+
+  p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #eddfd2;
+    padding: 2rem 2.8rem;
+    margin: 0;
+  }
+}
+
+.cookies-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.reject-button {
+  box-sizing: border-box;
+  background: #eddfd2;
+  border: 2px solid #eb5616;
+  font-family: 'Inter';
+  padding: 0.7rem;
+
+  &:hover {
+    background: #bf3111;
+    border: 2px solid #bf3111;
+  }
+}
+
+.allow-button {
+  background: #bf3111;
+  border: 2px solid#bf3111;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0.7rem;
+
+  &:hover {
+    background: #370c06;
+    border: 2px solid #370c06;
+  }
 }
 
 footer {
-    border: 0.5rem solid coral;
-    background-color: #BF3111;
-    font-family: 'Dosis', sans-serif;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    line-height: 2rem;
+  border: 0.5rem solid coral;
+  background-color: #bf3111;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  line-height: 2rem;
 }
 
 footer ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul {
-    padding: 0;
-    
+  padding: 0;
 }
 
 hr {
-    width:15%;
-    color: white;
+  width: 15%;
+  color: white;
 }
 
 .marsIcon {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 }
