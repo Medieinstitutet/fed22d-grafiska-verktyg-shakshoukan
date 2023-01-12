@@ -1,4 +1,5 @@
 
+
 const checkBtn = document.querySelector('#checkBtn');
 const hamburger = document.querySelector('#hamburger');
 const menu = document.querySelector('#menu');
@@ -29,4 +30,16 @@ aboutLink.addEventListener('click', goToSection2);
 ticketsLink.addEventListener('click', goToSection3);
 
 
+
+
+const rejectCookiesButton = document.querySelector('.reject-button');
+const acceptCookiesButton = document.querySelector('.allow-button');
+const cookiesContainer = document.querySelector('.cookies');
+
+rejectCookiesButton.addEventListener('click', disableCookies);
+acceptCookiesButton.addEventListener('click', disableCookies);
+
+function disableCookies() {
+  cookiesContainer.remove();
+}
 
