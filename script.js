@@ -10,6 +10,7 @@ const ticketsLink = document.querySelector('#ticketsLink');
 function toggleMenu() {
     menu.classList.toggle('showMenu');
     hamburger.classList.toggle('fa-xmark');
+    hamburger.classList.toggle('fa-bars');
 }
 
 // TODO: Dem här två funktionerna innehåller samma sak,
