@@ -8,6 +8,13 @@ body {
 
 header {
     height: 0vh;
+    position: fixed;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+header.hide {
+  opacity: 0;
 }
 
 .marsIcon {
@@ -46,32 +53,14 @@ header {
   color: #EDDFD2;
 }
 
-
-/*
-
-.checkBtn:checked + .menuBtn span {
-    position: absolute;
-    transition: all 0.3s ease-in-out;
+.fa-xmark {
+  color: #EDDFD2;
 }
-
-.checkBtn:checked + .menuBtn span:nth-child(1) {
-    transform-origin: center center;
-    transform: rotate(45deg);
-}
-
-.checkBtn:checked + .menuBtn span:nth-child(3) {
-    transform-origin: center center;
-    transform: rotate(-45deg);
-}
-
-.checkBtn:checked + .menuBtn span:nth-child(2) {
-    opacity: 0;
-} */
 
 nav {
     top: 0;
     left: 100%;
-    padding-top: 3.5rem;
+    padding-top: 4rem;
     padding-left: 1rem;
     z-index: 5;
     height: 100vh;
@@ -80,7 +69,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 nav.showMenu {
@@ -88,12 +77,13 @@ nav.showMenu {
 }
 
 a {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
     font-size: 1.4rem;
+    font-weight: 500;
     color: #EDDFD2;
     text-decoration: none;
-  //border: 0.5rem solid coral;
-  height: 0;
+    text-transform: uppercase;
+    height: 0;
 }
 
 button {
