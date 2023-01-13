@@ -108,6 +108,7 @@ h2 {
 .sectionThree {
   background-color: #18211F;
   height: 100vh;
+  position: relative;
 }
 
 h3 {
@@ -120,11 +121,11 @@ h3 {
 .subscriptionWrap {
     position: absolute;
     width: 22rem;
+    min-width: 1rem;
     height: 16.8rem;
     margin-left: 1rem;
-    margin-right: 1rem;
-    top: 142rem;
     background-color: #EDDFD2;
+    margin-top: 2rem;
 } 
 
 p.ToBeAnnounced {
@@ -137,8 +138,8 @@ p.ToBeAnnounced {
     position: absolute;
     width: 21rem;
     height: 3.25rem;
-    left: 0.8rem;
-    top: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
 }
 
 p.notification {
@@ -150,8 +151,8 @@ p.notification {
     position: absolute;
     width: 18.3rem;
     height: 3.25rem;
-    left: 1rem;
-    top: 4rem;
+    margin-left: 2rem;
+    top: 4.6rem;
 }
 
 .email {
@@ -162,10 +163,10 @@ p.notification {
     background-color: white;
     border: none;
     position: absolute;
-    width: 18.1rem;
+    width: 17.8rem;
     height: 2.25rem;
-    left: 1rem;
-    top: 8.5rem;
+    margin-left: 2rem;
+    margin-top: 9rem;
 }
 
 .subscribeBtn {
@@ -180,8 +181,8 @@ p.notification {
     position: absolute;
     width: 18.1rem;
     height: 2.8rem;
-    left: 1rem;
-    top: 11.5rem;
+    margin-left: 2rem;
+    margin-top: 12rem;
 }
 
 .cookies {
