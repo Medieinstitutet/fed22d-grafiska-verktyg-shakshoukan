@@ -34,14 +34,64 @@ h2 {
     margin: 28px 0px 28px 30px;
 }   
 
-.subscriptionWrap {
- 
-  width: 29.1rem;
-  height: 12.9rem;
-  margin-left: 5rem;
-  margin-top: 7rem;
-
+.subscriptionWrap { 
+  width: 31.1rem;
+  height: 11.9rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
 } 
+
+p.ToBeAnnounced {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  color: #000000;
+  position: absolute;
+  width: 27rem;
+  height: 3.25rem;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+p.notification {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #000000;
+  position: absolute;
+  width: 24.3rem;
+  height: 3.25rem;
+  margin-left: 3.4rem;
+  top: 4rem;
+}
+
+.email {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  background-color: white;
+  border: none;
+  position: absolute;
+  width: 23.8rem;
+  height: 1.25rem;
+  margin-left: 3.4rem;
+  margin-top: 8rem;
+}
+
+.subscribeBtn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #001A5C;
+  border: none;
+  position: absolute;
+  width: 24.1rem;
+  height: 1.5rem;
+  margin-left: 3.4rem;
+  margin-top: 10rem;
+}
 
 .cookies {
   display: flex;

@@ -120,17 +120,17 @@ h3 {
 
 .subscriptionWrap {
     position: absolute;
-    width: 22rem;
-    min-width: 1rem;
+    max-width: 40rem;
+    min-width: 22rem;
     height: 16.8rem;
     margin-left: 1rem;
     background-color: #EDDFD2;
     margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
 } 
 
 p.ToBeAnnounced {
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     line-height: 1.4rem;
     text-align: center;
@@ -144,7 +144,6 @@ p.ToBeAnnounced {
 
 p.notification {
     font-size: 0.9;
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 1.4rem;
     color: #000000;
@@ -159,7 +158,6 @@ p.notification {
     font-size: 0.9;
     font-weight: 400;
     line-height: 1.4rem;
-    font-family: 'Inter', sans-serif;
     background-color: white;
     border: none;
     position: absolute;
@@ -173,7 +171,6 @@ p.notification {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.2rem;
-    font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     text-align: center;
     background-color: #001A5C;
