@@ -34,24 +34,32 @@ h2 {
     margin: 28px 0px 28px 30px;
 }   
 
-.cardsImg {
+.imgWrap {
     width: 30%;
-}
-
-.img {
-    position: absolute;
-    width: 379.56px;
-    height: 213.5px;
-    left: -5.28px;
-    top: 0px;
-}
-
-h4 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 2rem;              
-    font-weight: 500;
-    letter-spacing: 0.2em;
+    position: relative;
+    text-align: center;
     color: #EDDFD2;
+    display: block;
+  
+    .img {
+      position: absolute;
+      width: 379.56px;
+      height: 213.5px;
+      left: -5.28px;
+      top: 0px;
+    }
+  
+    h4.standard {
+      font-family: 'Dosis', sans-serif;
+      font-size: 2rem;              
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      color: #EDDFD2;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 }
 
 .marsIcon {
