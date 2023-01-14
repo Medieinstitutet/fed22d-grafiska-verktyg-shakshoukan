@@ -12,6 +12,10 @@
     .pic2 {
         width: 380px;
         height: 400px;
+        display: block;
+    }
+    .pic2tablet {
+        display: none;
     }
     h3 {
         text-align: left;
@@ -19,5 +23,6 @@
     p {
         width: 380px;
         height: 400px;
+        line-height: 23px;
     }
 }

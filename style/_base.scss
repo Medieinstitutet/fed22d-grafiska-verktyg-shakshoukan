@@ -10,13 +10,20 @@ header {
 
 .sectionTwo {
     background-color: #18211f;
-    padding: 5%;
     padding-top: 30px;
+    padding: 5%;
     .pic1 {
         width: 350px;
-        height: 368px;  
+        height: 368px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
     }
     .pic2 {
+        display: none;
+    }
+    .pic2tablet {
         display: none;
     }
     h3 {
