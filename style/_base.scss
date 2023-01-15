@@ -48,4 +48,11 @@ footer {
         width: 55px;
         height: 55px;
     }
+    a {
+        color: white;
+        text-decoration: underline transparent;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
