@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -7,10 +7,10 @@ body {
 }
 
 header {
-    height: 0vh;
-    position: fixed;
-    z-index: 3;
-    transition: 0.3s;
+  height: 0vh;
+  position: fixed;
+  z-index: 3;
+  transition: 0.3s;
 }
 
 header.hide {
@@ -18,72 +18,72 @@ header.hide {
 }
 
 .marsIcon {
-    height: 3rem;
-    width: 3rem;
-    z-index: 3;
-    position: fixed;
+  height: 3rem;
+  width: 3rem;
+  z-index: 3;
+  position: fixed;
 }
 
 .checkBtn {
-    top: 1rem;
-    right: 1rem;
-    position: fixed;
-    height: 3.4rem;
-    width: 4rem;
-    opacity: 0;
-    z-index: 7;
-    cursor: pointer;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  height: 3.4rem;
+  width: 4rem;
+  opacity: 0;
+  z-index: 7;
+  cursor: pointer;
 }
 
 .menuBtn {
-    display: block;
-    top: 1rem;
-    right: 1rem;
-    position: fixed;
-    height: 3.4rem;
-    width: 4rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    pointer-events: none;
-    z-index: 6;
+  display: block;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  height: 3.4rem;
+  width: 4rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  pointer-events: none;
+  z-index: 6;
 }
 
 .fa-bars {
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 .fa-xmark {
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 nav {
-    top: 0;
-    left: 100%;
-    padding-top: 4rem;
-    padding-left: 1rem;
-    z-index: 5;
-    height: 100vh;
-    width: 100vw;
-    background-color: #18211F;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    transition: 0.4s;
+  top: 0;
+  left: 100%;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+  background-color: #18211f;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: 0.4s;
 }
 
 nav.showMenu {
-    left: 0;
+  left: 0;
 }
 
 a {
-    margin-bottom: 3.5rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #EDDFD2;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 0;
+  margin-bottom: 3.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #eddfd2;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 0;
 }
 
 button {
@@ -102,86 +102,87 @@ h6 {
 }
 
 .sectionOne {
-    min-height: 100vh;
-    background-image: url("../assets/background.jpg");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 58% 80%;
-    position: relative;
+  min-height: 100vh;
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 58% 80%;
+  position: relative;
 }
 
 h1 {
-    display: block;
-    font-family: 'Dosis', sans-serif;
-    font-size: 3.4rem;              
-    font-weight: 400;
-    text-align: center;
-    margin-left: 1rem;
-    margin-top: 25rem;
-    position: absolute;
-    color: #FFFFFF;      
+  display: block;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 25rem;
+  position: absolute;
+  color: #ffffff;
 }
 
 .logo {
-    display: block;
-    font-family: 'East Sea Dokdo', sans-serif;
-    font-size: 10.3rem;
-    position: absolute;
-    text-align: center;
-    margin-top: 25.4rem;  
-    margin-left: 1rem;
-    color: #FFFFFF;    
+  display: block;
+  font-family: 'East Sea Dokdo', sans-serif;
+  font-size: 10.3rem;
+  position: absolute;
+  text-align: center;
+  margin-top: 25.4rem;
+  margin-left: 1rem;
+  color: #ffffff;
 }
 
 h4 {
-    position: absolute;
-    width: 20rem;
-    height: 1.8rem;
-    margin-left: 0.5rem;
-    margin-top: 37rem;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
+  position: absolute;
+  width: 20rem;
+  height: 1.8rem;
+  margin-left: 0.5rem;
+  margin-top: 37rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.2em;
+  color: #ffffff;
 }
 
 .intro {
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.4;
-    color: white;
-    margin-left: 1rem;
-    margin-right: 1.4rem;
-    margin-top: 41rem;
-    text-align: left;
-    display: inline-block;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.4;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1.4rem;
+  margin-top: 41rem;
+  text-align: left;
+  display: inline-block;
 }
 
-.trailerBtn, .infoBtn {
-    background-color: #BF3111;
-    color: white;
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    width: 8rem;
-    height: 2.8rem;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    padding: 5px;
-    display: inline-block;
+.trailerBtn,
+.infoBtn {
+  background-color: #bf3111;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  width: 8rem;
+  height: 2.8rem;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
 }
 
 .trailerBtn {
-    margin: 28px 0px 28px 20px;
+  margin: 28px 0px 28px 20px;
 }
 
 .infoBtn {
-    margin: 28px 0px 28px 20px;
-}   
+  margin: 28px 0px 28px 20px;
+}
 
 .sectionTwo {
   border: 0.5rem solid coral;
@@ -189,13 +190,81 @@ h4 {
 }
 
 .sectionThree {
-  border: 0.5rem solid coral;
+  background-color: #18211f;
   height: 100vh;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #eddfd2;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  // border: 0.5rem solid coral;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  max-width: 30rem;
+  background: #eddfd2;
+  padding-bottom: 1rem;
+
+  h4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    height: fit-content;
+  }
+
+  .imgWrap {
+    position: relative;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    padding: 0 0.8rem;
+  }
+
+  span {
+    font-family: 'Dosis';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+
+  button {
+    width: 18rem;
+    height: 3rem;
+    color: #ffffff;
+    background: #bf3111;
+    border: none;
+    font-family: 'Inter';
+    margin: 1.5rem auto 0;
+  }
 }
 
 .cookies {
-  //   border: 0.5rem solid coral;
-
   position: fixed;
   bottom: 0;
   background: #000000;
