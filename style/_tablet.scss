@@ -4,25 +4,25 @@ footer {
     justify-content: space-between;
     padding: 50px;
     align-items: center; 
+    .marsIcon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    ul {
+        left: 30%;
+    }
+    .copyright {
+        margin-right: 100px;
+    }
+    .contactInfo {
+        margin-right: 400px;
+    }
 }
 
-footer .copyright {
-    margin-right: 100px;
-}
 
-footer .contactInfo {
-    margin-right: 400px;
-}
 
-.marsIcon {
-    width: 70px;
-    height: 70px;
-}
-
-hr {
-    display: none;
-}
-
-ul {
-    left: 30%;
-}
