@@ -102,85 +102,85 @@ h6 {
 }
 
 .sectionOne {
-    min-height: 100vh;
-    background-image: url("../assets/background.jpg");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 58% 80%;
-    position: relative;
+  min-height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 58% 80%;
+  position: relative;
 }
 
 h1 {
-    display: block;
-    font-family: 'Dosis', sans-serif;
-    font-size: 3.4rem;              
-    font-weight: 400;
-    text-align: center;
-    margin-left: 1rem;
-    margin-top: 25rem;
-    position: absolute;
-    color: #FFFFFF;      
+  display: block;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3.4rem;              
+  font-weight: 400;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 25rem;
+  position: absolute;
+  color: #FFFFFF;      
 }
 
 .logo {
-    display: block;
-    font-family: 'East Sea Dokdo', sans-serif;
-    font-size: 10.3rem;
-    position: absolute;
-    text-align: center;
-    margin-top: 25.4rem;  
-    margin-left: 1rem;
-    color: #FFFFFF;    
+  display: block;
+  font-family: 'East Sea Dokdo', sans-serif;
+  font-size: 10.3rem;
+  position: absolute;
+  text-align: center;
+  margin-top: 25.4rem;  
+  margin-left: 1rem;
+  color: #FFFFFF;    
 }
 
-h4 {
-    position: absolute;
-    width: 20rem;
-    height: 1.8rem;
-    margin-left: 0.5rem;
-    margin-top: 37rem;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
+h2 {
+  position: absolute;
+  width: 20rem;
+  height: 1.8rem;
+  margin-left: 0.5rem;
+  margin-top: 37rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.2em;
+  color: #EDDFD2;
 }
 
 .intro {
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.4;
-    color: white;
-    margin-left: 1rem;
-    margin-right: 1.4rem;
-    margin-top: 41rem;
-    text-align: left;
-    display: inline-block;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.4;
+  color: #EDDFD2;
+  margin-left: 1rem;
+  margin-right: 1.4rem;
+  margin-top: 41rem;
+  text-align: left;
+  display: inline-block;
 }
 
 .trailerBtn, .infoBtn {
-    background-color: #BF3111;
-    color: white;
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    width: 8rem;
-    height: 2.8rem;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    padding: 5px;
-    display: inline-block;
+  background-color: #BF3111;
+  color:#EDDFD2;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  width: 8rem;
+  height: 2.8rem;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
 }
 
 .trailerBtn {
-    margin: 28px 0px 28px 20px;
+  margin: 28px 0px 28px 20px;
 }
 
 .infoBtn {
-    margin: 28px 0px 28px 20px;
+  margin: 28px 0px 28px 20px;
 }   
 
 .sectionTwo {
@@ -189,8 +189,84 @@ h4 {
 }
 
 .sectionThree {
-  border: 0.5rem solid coral;
+  background-color: #18211F;
   height: 100vh;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem;              
+  font-weight: 500;
+  color: #EDDFD2;
+}
+
+.imgWrap {
+  display: none;
+}
+
+.subscriptionWrap {
+  position: absolute;
+  max-width: 40rem;
+  min-width: 22rem;
+  height: 16.8rem;
+  margin-left: 1rem;
+  background-color: #EDDFD2;
+  margin-top: 2rem;
+  font-family: 'Inter', sans-serif;
+} 
+
+p.toBeAnnounced {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  width: 21rem;
+  height: 3.25rem;
+  margin-left: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+p.notification {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #000000;
+  position: absolute;
+  width: 18.3rem;
+  height: 3.25rem;
+  margin-left: 2rem;
+  top: 4.6rem;
+}
+
+.email {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  background-color: white;
+  border: none;
+  position: absolute;
+  width: 17.8rem;
+  height: 2.25rem;
+  margin-left: 2rem;
+  margin-top: 9rem;
+}
+
+.subscribeBtn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #001A5C;
+  border: none;
+  position: absolute;
+  width: 18.1rem;
+  height: 2.8rem;
+  margin-left: 2rem;
+  margin-top: 12rem;
 }
 
 .cookies {
