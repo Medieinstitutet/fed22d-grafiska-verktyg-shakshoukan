@@ -1,4 +1,26 @@
 
+.sectionTwo {
+    padding-top: 30px;
+    .pic2tablet {
+        width: 678px;
+        height: 713.68px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .pic1 {
+        display: none;
+    }
+    h3 {
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    p {
+        line-height: 35px;
+    }
+}
+
 nav {
   padding-left: 3rem;
 }
@@ -149,4 +171,3 @@ hr {
 ul {
   left: 30%;
 }
-
