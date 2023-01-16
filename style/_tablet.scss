@@ -1,24 +1,22 @@
-
 .sectionTwo {
-    padding-top: 30px;
-    .pic2tablet {
-        width: 678px;
-        height: 713.68px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .pic1 {
-        display: none;
-    }
-    h3 {
-        text-align: left;
-        margin-bottom: 3rem;
-    }
-    p {
-        line-height: 35px;
-    }
+  padding-top: 30px;
+  .pic2tablet {
+    width: 678px;
+    height: 713.68px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic1 {
+    display: none;
+  }
+  h3 {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  p {
+    line-height: 35px;
+  }
 }
 
 nav {
@@ -26,19 +24,19 @@ nav {
 }
 
 a {
-    font-size: 2rem;
-    margin-bottom: 6.25rem;
+  font-size: 2rem;
+  margin-bottom: 6.25rem;
 }
 
 h1 {
   font-size: 3.4rem;
   margin-left: 16rem;
-  //margin-top: 38rem;   
+  //margin-top: 38rem;
 }
 
 .logo {
   font-size: 10.3rem;
-  //margin-top: 38.8rem;  
+  //margin-top: 38.8rem;
   margin-left: 16rem;
 }
 
@@ -63,14 +61,14 @@ h2 {
 
 .infoBtn {
   margin: 28px 0px 28px 30px;
-}   
+}
 
-.subscriptionWrap { 
-width: 31.1rem;
-height: 11.9rem;
-margin-left: 10rem;
-margin-top: 5rem;
-} 
+.subscriptionWrap {
+  width: 31.1rem;
+  height: 11.9rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
 
 p.toBeAnnounced {
   font-size: 1rem;
@@ -113,9 +111,9 @@ p.notification {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
-  background-color: #001A5C;
+  background-color: #001a5c;
   border: none;
   position: absolute;
   width: 24.1rem;
@@ -170,4 +168,8 @@ hr {
 
 ul {
   left: 30%;
+}
+
+.container {
+  width: 20rem;
 }
