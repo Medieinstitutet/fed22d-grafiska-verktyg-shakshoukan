@@ -1,6 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
 header {
-  //border: 0.5rem solid coral;
-  height: 0;
+    height: 0vh;
+    position: fixed;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+header.hide {
+  opacity: 0;
+}
+
+.marsIcon {
+    height: 3rem;
+    width: 3rem;
+    z-index: 3;
+    position: fixed;
+}
+
+.checkBtn {
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    opacity: 0;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.menuBtn {
+    display: block;
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 6;
+}
+
+.fa-bars {
+  color: #EDDFD2;
+}
+
+.fa-xmark {
+  color: #EDDFD2;
+}
+
+nav {
+    top: 0;
+    left: 100%;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    background-color: #18211F;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: 0.4s;
+}
+
+nav.showMenu {
+    left: 0;
+}
+
+a {
+    margin-bottom: 3.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #EDDFD2;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 0;
 }
 
 button {

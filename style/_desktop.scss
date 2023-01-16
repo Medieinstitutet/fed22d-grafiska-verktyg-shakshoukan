@@ -1,4 +1,38 @@
 
+header {
+    background-color: aqua;
+}
+
+.marsIcon {
+    display: flex;
+    position: fixed;
+    margin-left: 49%;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.checkBtn {
+    display: none;
+}
+
+.menuBtn {
+    display: none;
+}
+
+nav {
+    left: 0;
+    padding-top: 1rem;
+    background: transparent;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8%;
+    width: 80vw;
+}
+
+a {
+    font-size: 1.4rem;
+}
+
 h1 {
     font-size: 3.4rem;
     margin-left: 5rem;
@@ -90,7 +124,7 @@ p.toBeAnnounced {
     margin-left: 1rem;
   } 
 
-.marsIcon {
+footer .marsIcon {
   width: 94px;
   height: 94px;
 }
