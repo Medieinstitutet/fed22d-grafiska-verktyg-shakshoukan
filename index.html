@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Inter&family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Roboto:wght@100;400;700&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Inter&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=East+Sea+Dokdo&family=Inter&display=swap">
+    <script src="https://kit.fontawesome.com/086edfea1a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img></img>
+    <header id="header">
+        <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon">
+        
+        <input type="checkbox" class="checkBtn" id="checkBtn">
+        <button class="menuBtn">
+            <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburgerMenu"></span>
+        </button>
 
-        <button class="menuBtn"></button>
-
-        <nav> 
+        <nav id="menu">
             <a href="">Behind the scenes</a>
-            <a href="">About</a>
+            <a href="#about" id="aboutLink">About</a>
             <a href="">Cast and crew</a>
-            <a href="">Tickets</a>
+            <a href="#tickets" id="ticketsLink">Tickets</a>
         </nav>
     </header>
 
     <section class="sectionOne">
-        <h1>Welcome to mars</h1>
+        <h1>WELCOME TO</h1>
+            <div class="logo">MARS</div> 
+        
+        <h2>COMING JANUARY 24TH</h2> 
 
-        <h2>Coming january 24th</h2>
-
-        <p>When a team of astronauts land on Mars to investigate strange readings, they find themselves fighting for survival against hostile alien creatures. 
+        <p class="intro">When a team of astronauts land on Mars to investigate strange readings, they find themselves fighting for survival against hostile alien creatures. 
             Can they complete their mission and make it back to Earth alive?</p>
 
-        <button>Watch trailer</button>
-        <button>More info</button>
-
+        <button class="trailerBtn"><i class="fa fa-play"></i> Watch trailer</button>
+        <button class="infoBtn">More info</button>
     </section>
 
     <section class="sectionTwo">
@@ -62,75 +60,96 @@
           <img src="assets/photo-1.png" alt="astronaut-on-mars" class="pic2">
           <img src="assets/photo-2-tablet.png" alt="astronaut-on-mars" class="pic2tablet">
         </div>
+
     </section>
 
-    <section class="sectionThree">
-        <h3>Buy tickets</h3>
+    <section class="sectionThree" id="tickets">
+      <h3>Buy tickets</h3>
 
-        <article>
-            <h4>Pre release screening</h4>
-            <p>Pre-release screening at the Paramount Theatre in Los Angeles. 
-                Tickets include VIP treatment and a complimentary drink. Date TBA.</p>
+      <article>
+        <h4>Pre release screening</h4>
+        <p>
+          Pre-release screening at the Paramount Theatre in Los Angeles. Tickets include VIP treatment and a
+          complimentary drink. Date TBA.
+        </p>
 
-            <span>$50.00</span>
-            <button>Purchase tickets</button>
-        </article>
+        <span>$50.00</span>
+        <button>Purchase tickets</button>
+      </article>
 
-        <article>
-            <h4>January 24th - 3D</h4>
-            <p>Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. 
-                Tickets include a special collectible item. </p>
+      <article>
+        <h4>January 24th - 3D</h4>
+        <p>
+          Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. Tickets include a
+          special collectible item.
+        </p>
 
-            <span>$25.00</span>
-            <button>Purchase tickets</button>
-        </article>
+        <span>$25.00</span>
+        <button>Purchase tickets</button>
+      </article>
 
-        <article>
-            <h4>January 24th</h4>
-            <p>Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. 
-                Tickets include a special collectible item. </p>
-                
-            <span>$25.00</span>
-            <button>Purchase tickets</button>
-        </article>
+      <article>
+        <h4>January 24th</h4>
+        <p>
+          Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. Tickets include a
+          special collectible item.
+        </p>
 
-        <article>
-            <h4>Standard</h4>
-            <p>Standard showing. Dates and locations TBA.</p>
-            <p>Want to be notified when tickets are available? Enter your email:</p>
+        <span>$25.00</span>
+        <button>Purchase tickets</button>
+      </article>
 
-            <label>
-                <input type="text"></input>
-            </label>
-
-            <button>Subscribe for updates</button>
-        </article>
+      <article>
+        <div class="container">
+          <div class="imgWrap">
+            <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%">
+               <h4 class="standard">STANDARD</h4>              
+          </div>
+              <div class="subscriptionWrap">
+                  <p class="toBeAnnounced">Standard showing. Dates and locations TBA.</p>
+                  <p class="notification">Want to be notified when tickets are available? Enter your email:</p>
+                  <label>
+                  <input class="email" type="text" placeholder="example@email.com"/>
+                  </label>
+                  <button class="subscribeBtn">Subscribe for updates</button>
+              </div>
+        </div>
+      </article>
 
     </section>
 
     <!--Ska cookies vara en aside eller div?-->
     <div class="cookies">
+      <div class="cookies-text">
         <h6>We respect your privacy</h6>
-        <p>This site uses cookies to enhance your experience. 
-            Continue browsing or click allow if you agree to the use of cookies.</p>
-        <button>Reject cookies</button>
-        <button>Allow cookies</button>
+
+        <p>
+          This site uses cookies to enhance your experience. Continue browsing or click allow if you agree to the use of
+          cookies.
+        </p>
+      </div>
+      <div class="cookies-buttons">
+        <button class="reject-button">Reject cookies</button> <button class="allow-button">Allow cookies</button>
+      </div>
     </div>
 
     <footer>
-        <ul>
-            <li>Contact</li>
-            <li>Terms of Use</li>
-            <li>Privacy Policy</li>
-        </ul>
+      <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55px">
 
-        <span>Welcome to mars</span>
-        <span>Ⓒ2023 Paramount</span>
+      <ul class="contactInfo">
+        <li>Contact</li>
+        <li>Terms of Use</li>
+        <li>Privacy Policy</li>
+      </ul>
 
-        <img></img>
+      <hr>
+
+      <span class="copyright"
+        >Welcome to mars <br>
+        Ⓒ2023 Paramount</span
+      >
     </footer>
-    
-    <script type="module" src="script.js"></script>
-</body>
-</html>
 
+    <script src="script.js"></script>
+  </body>
+</html>

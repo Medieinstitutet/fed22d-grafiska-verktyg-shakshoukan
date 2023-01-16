@@ -1,3 +1,4 @@
+
 .sectionTwo {
     padding-top: 30px;
     .pic2tablet {
@@ -18,4 +19,155 @@
     p {
         line-height: 35px;
     }
+}
+
+nav {
+  padding-left: 3rem;
+}
+
+a {
+    font-size: 2rem;
+    margin-bottom: 6.25rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  margin-left: 16rem;
+  //margin-top: 38rem;   
+}
+
+.logo {
+  font-size: 10.3rem;
+  //margin-top: 38.8rem;  
+  margin-left: 16rem;
+}
+
+h2 {
+  width: 30rem;
+  height: 1.8rem;
+  //margin-top: 50rem;
+  margin-left: 16rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.intro {
+  margin-left: 16rem;
+  margin-right: 14.5rem;
+  //margin-top: 54rem;
+}
+
+.trailerBtn {
+  margin: 28px 0px 28px 260px;
+}
+
+.infoBtn {
+  margin: 28px 0px 28px 30px;
+}   
+
+.subscriptionWrap { 
+width: 31.1rem;
+height: 11.9rem;
+margin-left: 10rem;
+margin-top: 5rem;
+} 
+
+p.toBeAnnounced {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  color: #000000;
+  position: absolute;
+  width: 27rem;
+  height: 3.25rem;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+p.notification {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #000000;
+  position: absolute;
+  width: 24.3rem;
+  height: 3.25rem;
+  margin-left: 3.4rem;
+  top: 4rem;
+}
+
+.email {
+  font-size: 0.9;
+  font-weight: 400;
+  line-height: 1.4rem;
+  background-color: white;
+  border: none;
+  position: absolute;
+  width: 23.8rem;
+  height: 1.25rem;
+  margin-left: 3.4rem;
+  margin-top: 8rem;
+}
+
+.subscribeBtn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #001A5C;
+  border: none;
+  position: absolute;
+  width: 24.1rem;
+  height: 1.5rem;
+  margin-left: 3.4rem;
+  margin-top: 10rem;
+}
+
+.cookies {
+  display: flex;
+  padding-bottom: 0;
+
+  p {
+    margin: 0.4rem;
+    padding: 0;
+  }
+
+  .cookies-buttons {
+    margin: 1.5rem 1rem 1.5rem 5rem;
+  }
+}
+
+h6 {
+  text-align: left;
+  margin: 0.4rem;
+  padding-top: 0;
+}
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+footer .copyright {
+  margin-right: 100px;
+}
+
+footer .contactInfo {
+  margin-right: 400px;
+}
+
+.marsIcon {
+  width: 70px;
+  height: 70px;
+}
+
+hr {
+  display: none;
+}
+
+ul {
+  left: 30%;
 }
