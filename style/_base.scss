@@ -1,6 +1,5 @@
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,10 +7,10 @@ body {
 }
 
 header {
-    height: 0vh;
-    position: fixed;
-    z-index: 3;
-    transition: 0.3s;
+  height: 0vh;
+  position: fixed;
+  z-index: 3;
+  transition: 0.3s;
 }
 
 header.hide {
@@ -19,72 +18,70 @@ header.hide {
 }
 
 .marsIcon {
-    height: 3rem;
-    width: 3rem;
-    z-index: 3;
-    position: fixed;
+  z-index: 3;
+  position: fixed;
 }
 
 .checkBtn {
-    top: 1rem;
-    right: 1rem;
-    position: fixed;
-    height: 3.4rem;
-    width: 4rem;
-    opacity: 0;
-    z-index: 7;
-    cursor: pointer;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  height: 3.4rem;
+  width: 4rem;
+  opacity: 0;
+  z-index: 7;
+  cursor: pointer;
 }
 
 .menuBtn {
-    display: block;
-    top: 1rem;
-    right: 1rem;
-    position: fixed;
-    height: 3.4rem;
-    width: 4rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    pointer-events: none;
-    z-index: 6;
+  display: block;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  height: 3.4rem;
+  width: 4rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  pointer-events: none;
+  z-index: 6;
 }
 
 .fa-bars {
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 .fa-xmark {
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 nav {
-    top: 0;
-    left: 100%;
-    padding-top: 4rem;
-    padding-left: 1rem;
-    z-index: 5;
-    height: 100vh;
-    width: 100vw;
-    background-color: #18211F;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    transition: 0.4s;
+  top: 0;
+  left: 100%;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+  background-color: #18211f;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: 0.4s;
 }
 
 nav.showMenu {
-    left: 0;
+  left: 0;
 }
 
 a {
-    margin-bottom: 3.5rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #EDDFD2;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 0;
+  margin-bottom: 3.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #eddfd2;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 0;
 }
 
 button {
@@ -104,7 +101,7 @@ h6 {
 
 .sectionOne {
   min-height: 100vh;
-  background-image: url("../assets/background.jpg");
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -116,13 +113,13 @@ h6 {
 h1 {
   display: block;
   font-family: 'Dosis', sans-serif;
-  font-size: 3.4rem;              
+  font-size: 3.4rem;
   font-weight: 400;
   text-align: center;
   margin-left: 1rem;
   margin-top: 25rem;
   position: absolute;
-  color: #FFFFFF;      
+  color: #ffffff;
 }
 
 .logo {
@@ -131,9 +128,9 @@ h1 {
   font-size: 10.3rem;
   position: absolute;
   text-align: center;
-  margin-top: 25.4rem;  
+  margin-top: 25.4rem;
   margin-left: 1rem;
-  color: #FFFFFF;    
+  color: #ffffff;
 }
 
 h2 {
@@ -147,14 +144,14 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.8rem;
   letter-spacing: 0.2em;
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 .intro {
   font-size: 0.9rem;
   font-family: 'Inter', sans-serif;
   line-height: 1.4;
-  color: #EDDFD2;
+  color: #eddfd2;
   margin-left: 1rem;
   margin-right: 1.4rem;
   margin-top: 41rem;
@@ -162,9 +159,10 @@ h2 {
   display: inline-block;
 }
 
-.trailerBtn, .infoBtn {
-  background-color: #BF3111;
-  color:#EDDFD2;
+.trailerBtn,
+.infoBtn {
+  background-color: #bf3111;
+  color: #eddfd2;
   font-size: 1rem;
   font-family: 'Inter', sans-serif;
   width: 8rem;
@@ -182,58 +180,57 @@ h2 {
 
 .infoBtn {
   margin: 28px 0px 28px 20px;
-}   
+}
 
 .sectionTwo {
-    background-color: #18211f;
-    padding-top: 30px;
-    padding: 5%;
-    .pic1 {
-        width: 350px;
-        height: 368px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-       
-    }
-    .pic2 {
-        display: none;
-    }
-    .pic2tablet {
-        display: none;
-    }
-    h3 {
-        color: #EDDFD2;
-        font-family: 'Dosis';
-        font-weight: 600;
-        text-align: center;
-        font-size: 32px;
-        line-height: 40px;
-        letter-spacing: 0.1em;
-        font-style: normal;
-        text-transform: uppercase;
-    }
-    p {
-        color: #EDDFD2;
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        font-style: normal;
-    }
+  background-color: #18211f;
+  padding-top: 30px;
+  padding: 5%;
+  .pic1 {
+    width: 350px;
+    height: 368px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic2 {
+    display: none;
+  }
+  .pic2tablet {
+    display: none;
+  }
+  h3 {
+    color: #eddfd2;
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  p {
+    color: #eddfd2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+  }
 }
 
 .sectionThree {
-  background-color: #18211F;
+  background-color: #18211f;
   height: 100vh;
   position: relative;
 }
 
 h3 {
   font-family: 'Dosis', sans-serif;
-  font-size: 2rem;              
+  font-size: 2rem;
   font-weight: 500;
-  color: #EDDFD2;
+  color: #eddfd2;
 }
 
 .imgWrap {
@@ -246,10 +243,10 @@ h3 {
   min-width: 22rem;
   height: 16.8rem;
   margin-left: 1rem;
-  background-color: #EDDFD2;
+  background-color: #eddfd2;
   margin-top: 2rem;
   font-family: 'Inter', sans-serif;
-} 
+}
 
 p.toBeAnnounced {
   font-size: 1rem;
@@ -293,9 +290,9 @@ p.notification {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
-  background-color: #001A5C;
+  background-color: #001a5c;
   border: none;
   position: absolute;
   width: 18.1rem;
@@ -383,9 +380,4 @@ ul {
 hr {
   width: 15%;
   color: white;
-}
-
-.marsIcon {
-  width: 55px;
-  height: 55px;
 }
