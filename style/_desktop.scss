@@ -1,16 +1,13 @@
-
 .sectionTwo {
     padding: 150px;
     div {
         display: flex;
         justify-content: space-between;
-        
     }
-    .pic1{
+    .pic1 {
         width: 380px;
         height: 400px;
         display: block;
-        
     }
     .pic2 {
         width: 380px;
@@ -29,7 +26,6 @@
         line-height: 23px;
     }
 }
-
 
 header {
     background-color: aqua;
@@ -68,12 +64,12 @@ a {
 h1 {
     font-size: 3.4rem;
     margin-left: 5rem;
-    margin-top: 18rem;   
+    margin-top: 18rem;
 }
 
 .logo {
     font-size: 10.3rem;
-    margin-top: 18.8rem;  
+    margin-top: 18.8rem;
     margin-left: 5rem;
 }
 
@@ -84,6 +80,24 @@ h2 {
     margin-left: 5rem;
     font-size: 1.5rem;
     line-height: 1.8rem;
+}
+
+.ticket-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 17rem;
+    height: 30rem;
+
+    h4 {
+        width: 90%;
+    }
+
+    button {
+        width: 14rem;
+    }
 }
 
 .intro {
@@ -98,35 +112,30 @@ h2 {
 
 .infoBtn {
     margin: 28px 0px 28px 30px;
-}   
+}
 
 .imgWrap {
-    width: 25%;
     position: relative;
     text-align: center;
-    color: #EDDFD2;
+    color: #eddfd2;
     display: block;
-    margin-left: 1rem;
-    margin-top: 2rem;
-  
+
     .img {
-      position: absolute;
-      width: 379.56px;
-      height: 213.5px;
-      left: -5.28px;
-      top: 0px;
+        position: absolute;
+        width: 379.56px;
+        height: 213.5px;
+        left: -5.28px;
+        top: 0px;
     }
-  
+
     h4.standard {
-      font-family: 'Dosis', sans-serif;
-      font-size: 2rem;              
-      font-weight: 500;
-      letter-spacing: 0.2em;
-      color: #EDDFD2;
-      position: absolute;
-      top: 35%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+        font-family: 'Dosis', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -134,38 +143,37 @@ h2 {
     margin-left: 1rem;
     width: 20%;
     margin-top: -0.3rem;
-} 
+}
 
 p.toBeAnnounced {
     width: 22rem;
     margin-left: 0rem;
-  }
-  
-  p.notification {
+}
+
+p.notification {
     width: 19.3rem;
     margin-left: 1rem;
-  }
- 
-  .email {
+}
+
+.email {
     width: 18.8rem;
     margin-left: 1rem;
-  }
-  
-  .subscribeBtn {
+}
+
+.subscribeBtn {
     width: 19.1rem;
     margin-left: 1rem;
-  } 
+}
 
 footer .marsIcon {
-  width: 94px;
-  height: 94px;
+    width: 94px;
+    height: 94px;
 }
 
 .cookies {
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 7rem;
-  padding-left: 7rem;
-  box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    box-sizing: border-box;
 }
-
