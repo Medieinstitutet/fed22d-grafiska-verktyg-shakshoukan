@@ -8,13 +8,11 @@ const header = document.querySelector('#header');
 const ticket1 = document.querySelector('#ticket1');
 const ticket2 = document.querySelector('#ticket2');
 const ticket3 = document.querySelector('#ticket3');
-const ticket4 = document.querySelector('#ticket4');
 
 const tickets = [
     ticket1,
     ticket2,
     ticket3,
-    ticket4
 ];
 
 const rejectCookiesButton = document.querySelector('.reject-button');
