@@ -109,19 +109,21 @@ p.notification {
     margin-top: 8rem;
 }
 
-.subscribeBtn {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-    color: #ffffff;
-    text-align: center;
-    background-color: #001a5c;
-    border: none;
-    position: absolute;
-    width: 24.1rem !important;
-    height: 1.5rem !important;
-    margin-left: 3.4rem !important;
-    margin-top: 10rem !important;
+.container {
+    .subscribeBtn {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c;
+        border: none;
+        position: absolute;
+        width: 24.1rem;
+        height: 1.5rem;
+        margin-left: 3.4rem;
+        margin-top: 10rem;
+    }
 }
 
 .cookies {
