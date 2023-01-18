@@ -1,25 +1,31 @@
 .sectionTwo {
     padding: 150px;
+
     div {
         display: flex;
         justify-content: space-between;
     }
+
     .pic1 {
         width: 380px;
         height: 400px;
         display: block;
     }
+
     .pic2 {
         width: 380px;
         height: 400px;
         display: block;
     }
+
     .pic2tablet {
         display: none;
     }
+
     h3 {
         text-align: left;
     }
+
     p {
         width: 380px;
         height: 400px;
@@ -135,24 +141,34 @@ h2 {
     }
 }
 
+
+.subscription {
+    .imgWrap {
+        display: block;
+    }
+}
+
 .hidden {
     display: none;
+
 }
 
 .subscriptionWrap {
     margin-left: 1rem;
-    width: 20%;
-    margin-top: -0.3rem;
+    max-width: 11rem;
+    height: 15.9rem;
+    margin-top: 13.1rem;
 }
 
 p.toBeAnnounced {
     width: 22rem;
     margin-left: 0rem;
+    text-align: left;
 }
 
 p.notification {
     width: 19.3rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .email {
@@ -162,7 +178,11 @@ p.notification {
 
 .subscribeBtn {
     width: 19.1rem;
-    margin-left: 1rem;
+    margin-left: 1rem !important;
+    width: 19.1rem !important;
+    height: 1.5rem !important;
+
+
 }
 
 footer .marsIcon {
