@@ -273,7 +273,7 @@ article {
         position: relative;
         text-align: center;
         color: #eddfd2;
-        display: none;
+        // display: none;
 
         .img {
             position: absolute;
@@ -310,6 +310,12 @@ article {
         border: none;
         font-family: 'Inter';
         margin: 1.5rem auto 0;
+    }
+}
+
+.subscription {
+    .imgWrap {
+        display: none;
     }
 }
 
