@@ -8,17 +8,20 @@ const header = document.querySelector('#header');
 const ticket1 = document.querySelector('#ticket1');
 const ticket2 = document.querySelector('#ticket2');
 const ticket3 = document.querySelector('#ticket3');
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
 
 const tickets = [
     ticket1,
     ticket2,
-    ticket3,
+    ticket3
 ];
 
 const rejectCookiesButton = document.querySelector('.reject-button');
 const acceptCookiesButton = document.querySelector('.allow-button');
 const cookiesContainer = document.querySelector('.cookies');
 
+let currentTicketIndex = 1
 
 let prevScroll = document.documentElement.scrollTop;
 
