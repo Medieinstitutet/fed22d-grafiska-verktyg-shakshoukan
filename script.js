@@ -23,6 +23,8 @@ const cookiesContainer = document.querySelector('.cookies');
 
 let currentTicketIndex = 0;
 
+let middleTicketOnTop = true;
+
 let prevScroll = document.documentElement.scrollTop;
 
 
@@ -55,6 +57,14 @@ window.onscroll = function() {
     }
     prevScroll = currentScroll;
 }
+
+
+/* function swapTickets() {
+    const ticket1X = middleTicketOnTop ? ticket1 : ticket2;
+    const ticket2X = middleTicketOnTop ? ticket2 : ticket1;
+
+    
+} */
 
 /* function nextTicket() {
     if(currentTicketIndex + 1 > tickets.length -1) {
