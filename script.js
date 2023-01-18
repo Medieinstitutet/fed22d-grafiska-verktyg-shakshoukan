@@ -34,19 +34,11 @@ function toggleMenu() {
     hamburger.classList.toggle('fa-bars');
 }
 
-// TODO: Dem här två funktionerna innehåller samma sak,
-// går det att skriva ihop på något sätt?
-function goToSection2() {
+function goToSectionX() {
     menu.classList.toggle('showMenu');
     hamburger.classList.toggle('fa-xmark');
     hamburger.classList.toggle('fa-bars');
 }
-
-function goToSection3() {
-    menu.classList.toggle('showMenu');
-    hamburger.classList.toggle('fa-xmark');
-    hamburger.classList.toggle('fa-bars');
-} 
 
 window.onscroll = function() {
     let currentScroll = document.documentElement.scrollTop;
@@ -80,8 +72,8 @@ function disableCookies() {
 
 
 checkBtn.addEventListener('change', toggleMenu); 
-aboutLink.addEventListener('click', goToSection2);
-ticketsLink.addEventListener('click', goToSection3);
+aboutLink.addEventListener('click', goToSectionX);
+ticketsLink.addEventListener('click', goToSectionX);
 
 //prevBtn.addEventListener('click', prevTicket);
 //extBtn.addEventListener('click', nextTicket);
