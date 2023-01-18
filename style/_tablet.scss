@@ -1,5 +1,6 @@
 .sectionTwo {
     padding-top: 30px;
+
     .pic2tablet {
         width: 678px;
         height: 713.68px;
@@ -7,13 +8,16 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .pic1 {
         display: none;
     }
+
     h3 {
         text-align: left;
         margin-bottom: 3rem;
     }
+
     p {
         line-height: 35px;
     }
@@ -31,19 +35,16 @@ a {
 h1 {
     font-size: 3.4rem;
     margin-left: 16rem;
-    //margin-top: 38rem;
 }
 
 .logo {
     font-size: 10.3rem;
-    //margin-top: 38.8rem;
     margin-left: 16rem;
 }
 
 h2 {
     width: 30rem;
     height: 1.8rem;
-    //margin-top: 50rem;
     margin-left: 16rem;
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -52,7 +53,6 @@ h2 {
 .intro {
     margin-left: 16rem;
     margin-right: 14.5rem;
-    //margin-top: 54rem;
 }
 
 .trailerBtn {
@@ -66,7 +66,7 @@ h2 {
 .subscriptionWrap {
     width: 31.1rem;
     height: 11.9rem;
-    margin-left: 10rem;
+    margin-left: -6.5rem;
     margin-top: 5rem;
 }
 
@@ -80,6 +80,7 @@ p.toBeAnnounced {
     height: 3.25rem;
     margin-top: 1.2rem;
     margin-left: 1rem;
+    text-align: center;
 }
 
 p.notification {
@@ -88,10 +89,11 @@ p.notification {
     line-height: 1.4rem;
     color: #000000;
     position: absolute;
-    width: 24.3rem;
+    width: 25rem;
     height: 3.25rem;
     margin-left: 3.4rem;
     top: 4rem;
+    text-align: left;
 }
 
 .email {
@@ -116,10 +118,10 @@ p.notification {
     background-color: #001a5c;
     border: none;
     position: absolute;
-    width: 24.1rem;
-    height: 1.5rem;
-    margin-left: 3.4rem;
-    margin-top: 10rem;
+    width: 24.1rem !important;
+    height: 1.5rem !important;
+    margin-left: 3.4rem !important;
+    margin-top: 10rem !important;
 }
 
 .cookies {
@@ -141,6 +143,7 @@ h6 {
     margin: 0.4rem;
     padding-top: 0;
 }
+
 footer {
     display: flex;
     flex-direction: row-reverse;

@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: 'Dosis', sans-serif;
+    background-color: #18211f;
 }
 
 header {
@@ -185,9 +186,9 @@ h2 {
 }
 
 .sectionTwo {
-    background-color: #18211f;
     padding-top: 30px;
     padding: 5%;
+
     .pic1 {
         width: 350px;
         height: 368px;
@@ -195,12 +196,15 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
+
     .pic2 {
         display: none;
     }
+
     .pic2tablet {
         display: none;
     }
+
     h3 {
         color: #eddfd2;
         font-family: 'Dosis';
@@ -212,6 +216,7 @@ h2 {
         font-style: normal;
         text-transform: uppercase;
     }
+
     p {
         color: #eddfd2;
         font-family: 'Inter', sans-serif;
@@ -223,7 +228,6 @@ h2 {
 }
 
 .sectionThree {
-    background-color: #18211f;
     height: 100vh;
     position: relative;
 }
@@ -264,10 +268,11 @@ article {
         color: #eddfd2;
     }
 
-    .imgWrap {
+    /* .imgWrap {
         position: relative;
         text-align: center;
-    }
+        color: #eddfd2;
+    }*/
 
     p {
         font-family: 'Inter';
@@ -298,15 +303,24 @@ article {
     }
 }
 
+.subscription {
+    .imgWrap {
+        display: none;
+    }
+}
+
 .subscriptionWrap {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    max-width: 40rem;
+    max-width: 30rem;
     min-width: 22rem;
     height: 16.8rem;
-    margin-left: 1rem;
+    margin-left: -12rem;
     background-color: #eddfd2;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-family: 'Inter', sans-serif;
+    padding: 1rem;
 }
 
 p.toBeAnnounced {
@@ -330,8 +344,9 @@ p.notification {
     position: absolute;
     width: 18.3rem;
     height: 3.25rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     top: 4.6rem;
+    text-align: left;
 }
 
 .email {
@@ -353,13 +368,13 @@ p.notification {
     line-height: 1.2rem;
     color: #ffffff;
     text-align: center;
-    background-color: #001a5c;
+    background-color: #001a5c !important;
     border: none;
     position: absolute;
     width: 18.1rem;
     height: 2.8rem;
-    margin-left: 2rem;
-    margin-top: 12rem;
+    margin-left: 2rem !important;
+    margin-top: 12rem !important;
 }
 
 .cookies {
