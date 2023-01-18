@@ -225,7 +225,6 @@ h2 {
 .sectionThree {
     background-color: #18211f;
     height: 100vh;
-    position: relative;
 }
 
 h3 {
@@ -240,8 +239,12 @@ article {
     justify-content: center;
 }
 
+.ticket-cards {
+    display: flex;
+    flex-direction: row;
+}
+
 .container {
-    // border: 0.5rem solid coral;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
