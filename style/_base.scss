@@ -229,7 +229,6 @@ h2 {
 
 .sectionThree {
     height: 100vh;
-    position: relative;
 }
 
 h3 {
@@ -242,10 +241,15 @@ h3 {
 article {
     display: flex;
     justify-content: center;
+    margin: 2rem;
+}
+
+.ticket-cards {
+    display: flex;
+    flex-direction: row;
 }
 
 .container {
-    // border: 0.5rem solid coral;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
@@ -303,11 +307,20 @@ article {
     }
 }
 
+
 .subscription {
     .imgWrap {
         display: none;
     }
 }
+
+
+.prevBtn {
+    margin-left: 45%;
+}
+
+
+
 
 .subscriptionWrap {
     display: flex;

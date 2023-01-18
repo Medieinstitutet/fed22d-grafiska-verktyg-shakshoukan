@@ -61,6 +61,7 @@ nav {
     justify-content: space-around;
     margin-left: 8%;
     width: 80vw;
+    height: 30vh;
 }
 
 a {
@@ -86,11 +87,6 @@ h2 {
     margin-left: 5rem;
     font-size: 1.5rem;
     line-height: 1.8rem;
-}
-
-.ticket-cards {
-    display: flex;
-    flex-direction: row;
 }
 
 .container {
@@ -145,10 +141,16 @@ h2 {
     }
 }
 
+
 .subscription {
     .imgWrap {
         display: block;
     }
+}
+
+.hidden {
+    display: none;
+
 }
 
 .subscriptionWrap {
