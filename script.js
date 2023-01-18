@@ -22,8 +22,11 @@ const acceptCookiesButton = document.querySelector('.allow-button');
 const cookiesContainer = document.querySelector('.cookies');
 
 let currentTicketIndex = 0;
+let firstTicketOnTop = true;
+let opacityTimer = null;
+let opacity = 100;
+const fadeTimeInSec = 0.3;
 
-let middleTicketOnTop = true;
 
 let prevScroll = document.documentElement.scrollTop;
 
@@ -50,20 +53,63 @@ window.onscroll = function() {
     prevScroll = currentScroll;
 }
 
+function changeOpacity() {
+    opacity -= 10;
 
-/* function swapTickets() {
-    const ticket1X = middleTicketOnTop ? ticket1 : ticket2;
-    const ticket2X = middleTicketOnTop ? ticket2 : ticket1;
+    if (opacity <= -10) {
+        clearInterval(opacityTimer);
+        firstTicketOnTop = !firstTicketOnTop;
+        opacity = 100;
+    } else if (firstTicketOnTop) {
+        ticket1.style.opacity = `${opacity}%`;
+        ticket2.style.opacity = `${100 - opacity}%`;
+    } else {
+        ticket2.style.opacity = `${opacity}%`;
+        ticket1.style.opacity = `${100 - opacity}%`;
+    }
+}
 
-    
-} */
+function swapTickets(fadeOut, fadeIn) {
+    const ticket1X = firstTicketOnTop ? ticket1 : ticket2;
+    const ticket2X = firstTicketOnTop ? ticket2 : ticket1;
 
-/* function nextTicket() {
+    ticket1X.setAttribute('src', tickets[fadeOut].url);
+    ticket2X.setAttribute('src', tickets[fadeIn].url);
+
+    opacityTimer = setInterval(changeOpacity, (fadeTimeInSec * 1000) / 10);
+} 
+
+function nextTicket() {
     if(currentTicketIndex + 1 > tickets.length -1) {
         currentTicketIndex = 0;
-
+        swapTickets(tickets.length - 1, currentTicketIndex);
+    } else {
+        currentTicketIndex += 1;
+        swapTickets(currentTicketIndex -1, currentTicketIndex);
     }
-} */
+
+    console.log('next', currentTicketIndex);
+} 
+
+function prevTicket() {
+    if (currentTicketIndex - 1 < 0) {
+        currentTicketIndex = tickets.length -1;
+    } else {
+        currentTicketIndex -= 1;
+        swapTickets(currentTicketIndex + 1, currentTicketIndex);
+    }
+
+    ticket1.setAttribute('src', tickets[currentTicketIndex].url);
+    ticket1.setAttribute('alt', tickets[currentTicketIndex].url);
+
+    console.log('prev', currentTicketIndex);
+}
+
+
+function init() {
+    ticket1.setAttribute('src', tickets[0].url);
+    ticket2.setAttribute('src', tickets[1].url);
+}
 
 
 function disableCookies() {
@@ -75,12 +121,14 @@ checkBtn.addEventListener('change', toggleMenu);
 aboutLink.addEventListener('click', goToSectionX);
 ticketsLink.addEventListener('click', goToSectionX);
 
-//prevBtn.addEventListener('click', prevTicket);
-//extBtn.addEventListener('click', nextTicket);
+prevBtn.addEventListener('click', prevTicket);
+nextBtn.addEventListener('click', nextTicket);
 
 
 rejectCookiesButton.addEventListener('click', disableCookies);
 acceptCookiesButton.addEventListener('click', disableCookies);
+
+init();
 
 
 

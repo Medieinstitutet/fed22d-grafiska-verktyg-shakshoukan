@@ -90,6 +90,7 @@ h2 {
 }
 
 .container {
+    position: relative;
     width: 17rem;
     height: 30rem;
 
@@ -143,6 +144,7 @@ h2 {
 
 
 .subscription {
+    margin-top: 0;
     .imgWrap {
         display: block;
     }

@@ -247,12 +247,16 @@ article {
 .ticket-cards {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .container {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    margin: 0 1rem;
+    //margin: 0 1rem;
     max-width: 30rem;
     background: #eddfd2;
     padding-bottom: 1rem;
@@ -309,6 +313,8 @@ article {
 
 
 .subscription {
+    margin-top: 15rem;
+    position: relative;
     .imgWrap {
         display: none;
     }
