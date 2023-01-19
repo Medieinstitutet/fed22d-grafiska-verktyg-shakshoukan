@@ -16,13 +16,6 @@ const rejectCookiesButton = document.querySelector('.reject-button');
 const acceptCookiesButton = document.querySelector('.allow-button');
 const cookiesContainer = document.querySelector('.cookies');
 
-let currentTicketIndex = 0;
-let firstTicketOnTop = true;
-let opacityTimer = null;
-let opacity = 100;
-const fadeTimeInSec = 0.3;
-
-
 let prevScroll = document.documentElement.scrollTop;
 
 
