@@ -64,9 +64,9 @@ h2 {
 }
 
 .subscriptionWrap {
-    width: 31.1rem;
+    width: 28rem;
     height: 11.9rem;
-    margin-left: -6.5rem;
+    margin-left: -5rem;
     margin-top: 5rem;
 }
 
@@ -78,21 +78,21 @@ p.toBeAnnounced {
     position: absolute;
     width: 27rem;
     height: 3.25rem;
-    margin-top: 1.2rem;
-    margin-left: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
     text-align: center;
 }
 
 p.notification {
-    font-size: 0.9;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4rem;
     color: #000000;
     position: absolute;
     width: 25rem;
     height: 3.25rem;
-    margin-left: 3.4rem;
-    top: 4rem;
+    margin-left: 1rem;
+    top: 3.6rem;
     text-align: left;
 }
 
@@ -104,15 +104,14 @@ p.notification {
     border: none;
     position: absolute;
     width: 23.8rem;
-    height: 1.25rem;
-    margin-left: 3.4rem;
-    margin-top: 8rem;
+    height: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 7rem;
 }
 
 .container {
     .subscribeBtn {
         font-size: 1rem;
-        font-weight: 400;
         line-height: 1.2rem;
         color: #ffffff;
         text-align: center;
@@ -120,9 +119,9 @@ p.notification {
         border: none;
         position: absolute;
         width: 24.1rem;
-        height: 1.5rem;
-        margin-left: 3.4rem;
-        margin-top: 10rem;
+        height: 2rem;
+        margin-left: 2rem;
+        margin-top: 9.5rem;
     }
 }
 
@@ -173,4 +172,9 @@ footer {
 }
 
 
+
+
+.container {
+    width: 20rem;
+}
 
