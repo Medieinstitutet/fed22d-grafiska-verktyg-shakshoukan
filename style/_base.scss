@@ -1,28 +1,445 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #18211f;
+}
+
 header {
-    border: 0.5rem solid coral;
+    height: 0vh;
+    position: fixed;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+header.hide {
+    opacity: 0;
+}
+
+.marsIcon {
+    height: 3rem;
+    width: 3rem;
+    z-index: 3;
+    position: fixed;
+}
+
+.checkBtn {
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    opacity: 0;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.menuBtn {
+    display: block;
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 6;
+}
+
+.fa-bars {
+    color: #eddfd2;
+}
+
+.fa-xmark {
+    color: #eddfd2;
+}
+
+nav {
+    top: 0;
+    left: 100%;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    background-color: #18211f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: 0.4s;
+}
+
+nav.showMenu {
+    left: 0;
+}
+
+a {
+    margin-bottom: 3.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #eddfd2;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 0;
+}
+
+button {
+    white-space: nowrap;
+}
+
+h6 {
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #eddfd2;
+    margin: 0;
+    padding-top: 1.8rem;
 }
 
 .sectionOne {
-    border: 0.5rem solid coral;
+    min-height: 100vh;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
     height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 58% 80%;
+    position: relative;
+}
+
+h1 {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 25rem;
+    position: absolute;
+    color: #ffffff;
+}
+
+.logo {
+    display: block;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 10.3rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 25.4rem;
+    margin-left: 1rem;
+    color: #ffffff;
+}
+
+h2 {
+    position: absolute;
+    width: 20rem;
+    height: 1.8rem;
+    margin-left: 0.5rem;
+    margin-top: 37rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.2em;
+    color: #eddfd2;
+}
+
+.intro {
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+    color: #eddfd2;
+    margin-left: 1rem;
+    margin-right: 1.4rem;
+    margin-top: 41rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.trailerBtn,
+.infoBtn {
+    background-color: #bf3111;
+    color: #eddfd2;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    width: 8rem;
+    height: 2.8rem;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+}
+
+.trailerBtn {
+    margin: 28px 0px 28px 20px;
+}
+
+.infoBtn {
+    margin: 28px 0px 28px 20px;
 }
 
 .sectionTwo {
-    border: 0.5rem solid coral;
-    height: 100vh;
+    padding-top: 30px;
+    padding: 5%;
+
+    .pic1 {
+        width: 350px;
+        height: 368px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pic2 {
+        display: none;
+    }
+
+    .pic2tablet {
+        display: none;
+    }
+
+    h3 {
+        color: #eddfd2;
+        font-family: 'Dosis';
+        font-weight: 600;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #eddfd2;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-style: normal;
+    }
 }
 
 .sectionThree {
-    border: 0.5rem solid coral;
     height: 100vh;
 }
 
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #eddfd2;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.ticket-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    max-width: 30rem;
+    background: #eddfd2;
+    padding-bottom: 1rem;
+
+    .imgWrap {
+        position: relative;
+        text-align: center;
+    }
+
+    h4 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        height: fit-content;
+        color: #eddfd2;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        padding: 0 0.8rem;
+    }
+
+    span {
+        font-family: 'Dosis';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+
+    button {
+        width: 18rem;
+        height: 3rem;
+        color: #ffffff;
+        background: #bf3111;
+        border: none;
+        font-family: 'Inter';
+        margin: 1.5rem auto 0;
+    }
+
+    .subscribeBtn {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c !important;
+        border: none;
+        position: absolute;
+        width: 18.1rem;
+        height: 2.8rem;
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+.prevBtn {
+    margin-left: 45%;
+}
+
+.subscription-article-desktop {
+    display: none;
+}
+
+.subscriptionWrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 30rem;
+    min-width: 22rem;
+    height: 16.8rem;
+    margin-left: -12rem;
+    background-color: #eddfd2;
+    margin-top: 5rem;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem;
+}
+
+p.toBeAnnounced {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 21rem;
+    height: 3.25rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+}
+
+p.notification {
+    font-size: 0.9;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #000000;
+    position: absolute;
+    width: 18.3rem;
+    height: 3.25rem;
+    margin-left: 1rem;
+    top: 4.6rem;
+    text-align: left;
+}
+
+.email {
+    font-size: 0.9;
+    font-weight: 400;
+    line-height: 1.4rem;
+    background-color: white;
+    border: none;
+    position: absolute;
+    width: 17.8rem;
+    height: 2.25rem;
+    margin-left: 2rem;
+    margin-top: 9rem;
+}
+
 .cookies {
-    border: 0.5rem solid coral;
+    position: fixed;
+    bottom: 0;
+    background: #000000;
+    padding-bottom: 2.8rem;
+    width: 100%;
+
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #eddfd2;
+        padding: 2rem 2.8rem;
+        margin: 0;
+    }
+}
+
+.cookies-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.reject-button {
+    box-sizing: border-box;
+    background: #eddfd2;
+    border: 2px solid #eb5616;
+    font-family: 'Inter';
+    padding: 0.7rem;
+
+    &:hover {
+        background: #bf3111;
+        border: 2px solid #bf3111;
+    }
+}
+
+.allow-button {
+    background: #bf3111;
+    border: 2px solid#bf3111;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.7rem;
+
+    &:hover {
+        background: #370c06;
+        border: 2px solid #370c06;
+    }
 }
 
 footer {
-    background-color: #BF3111;
+    background-color: #bf3111;
     font-family: 'Dosis', sans-serif;
     color: white;
     text-align: center;

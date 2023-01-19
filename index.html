@@ -1,108 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-</head>
-<body>
-    <header>
-        <img></img>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to Mars</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=East+Sea+Dokdo&family=Inter&family=Roboto:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
 
-        <button class="menuBtn"></button>
+        <script src="https://kit.fontawesome.com/086edfea1a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="header">
+            <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55" height="55" />
 
-        <nav>
-            <a href="">Behind the scenes</a>
-            <a href="">About</a>
-            <a href="">Cast and crew</a>
-            <a href="">Tickets</a>
-        </nav>
-    </header>
+            <input type="checkbox" class="checkBtn" id="checkBtn" />
+            <button class="menuBtn">
+                <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburgerMenu"></span>
+            </button>
 
-    <section class="sectionOne">
-        <h1>Welcome to mars</h1>
+            <nav id="menu">
+                <a href="">Behind the scenes</a>
+                <a href="#about" id="aboutLink">About</a>
+                <a href="">Cast and crew</a>
+                <a href="#tickets" id="ticketsLink">Tickets</a>
+            </nav>
+        </header>
 
-        <h2>Coming january 24th</h2>
+        <section class="sectionOne">
+            <h1>WELCOME TO</h1>
+            <div class="logo">MARS</div>
 
-        <p>When a team of astronauts land on Mars to investigate strange readings, they find themselves fighting for survival against hostile alien creatures. 
-            Can they complete their mission and make it back to Earth alive?</p>
+            <h2>COMING JANUARY 24TH</h2>
 
-        <button>Watch trailer</button>
-        <button>More info</button>
+            <p class="intro">
+                When a team of astronauts land on Mars to investigate strange readings, they find themselves fighting
+                for survival against hostile alien creatures. Can they complete their mission and make it back to Earth
+                alive?
+            </p>
 
-    </section>
+            <button class="trailerBtn"><i class="fa fa-play"></i> Watch trailer</button>
+            <button class="infoBtn">More info</button>
+        </section>
 
-    <section class="sectionTwo">
-        <h3>About the film</h3>
+        <section class="sectionTwo" id="about">
+            <h3>About the film</h3>
+            <div>
+                <p>
+                    Welcome to Mars follows a team of German astronauts who are sent on a mission to become the first
+                    humans to land on Mars. As they land, they quickly realize that they are not alone. Follow along on
+                    the journey through the depths of space where they encounter a host of challenges, including
+                    dangerous asteroids, malfunctioning equipment, and a mysterious virus that threatens to wipe out the
+                    crew. With the help of their wits and advanced technology, the team must overcome these obstacles
+                    and emerge victorious, paving the way for future generations to explore the red planet. But as they
+                    draw closer to their destination, they begin to uncover secrets about the true purpose of their
+                    mission, leading them to question whether they can trust their superiors and each other.
+                </p>
 
-        <p>Welcome to Mars follows a team of German astronauts who are sent on a mission to become the first humans to land on Mars. 
-            As they land, they quickly realize that they are not alone. Follow along on the journey through the depths of space where they encounter a host of challenges, 
-            including dangerous asteroids, malfunctioning equipment, and a mysterious virus that threatens to wipe out the crew. With the help of their wits and advanced 
-            technology, the team must overcome these obstacles and emerge victorious, paving the way for future generations to explore the red planet. 
-            But as they draw closer to their destination, they begin to uncover secrets about the true purpose of their mission, 
-            leading them to question whether they can trust their superiors and each other.</p>
+                <img src="assets/photo-2.png" alt="astronaut-on-mars" class="pic1" />
+                <img src="assets/photo-1.png" alt="astronaut-on-mars" class="pic2" />
+                <img src="assets/photo-2-tablet.png" alt="astronaut-on-mars" class="pic2tablet" />
+            </div>
+        </section>
 
-        <img src="" alt="">
-        <img src="" alt="">
-    </section>
+        <section class="sectionThree" id="tickets">
+            <h3>Buy tickets</h3>
 
-    <section class="sectionThree">
-        <h3>Buy tickets</h3>
+            <div class="ticket-cards">
+                <article>
+                    <div class="container" id="ticket1">
+                        <div class="imgWrap">
+                            <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
+                            <h4 class="standard">Pre release screening</h4>
+                        </div>
+                        <p>
+                            Pre-release screening at the Paramount Theatre in Los Angeles. Tickets include VIP treatment
+                            and a complimentary drink. Date TBA.
+                        </p>
 
-        <article>
-            <h4>Pre release screening</h4>
-            <p>Pre-release screening at the Paramount Theatre in Los Angeles. 
-                Tickets include VIP treatment and a complimentary drink. Date TBA.</p>
+                        <span>$50.00</span>
+                        <button>Purchase tickets</button>
+                    </div>
+                </article>
 
-            <span>$50.00</span>
-            <button>Purchase tickets</button>
-        </article>
+                <article>
+                    <div class="container" id="ticket2">
+                        <div class="imgWrap">
+                            <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
+                            <h4>January 24th - 3D</h4>
+                        </div>
+                        <p>
+                            Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles.
+                            Tickets include a special collectible item.
+                        </p>
 
-        <article>
-            <h4>January 24th - 3D</h4>
-            <p>Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. 
-                Tickets include a special collectible item. </p>
+                        <span>$25.00</span>
+                        <button>Purchase tickets</button>
+                    </div>
+                </article>
 
-            <span>$25.00</span>
-            <button>Purchase tickets</button>
-        </article>
+                <article>
+                    <div class="container" id="ticket3">
+                        <div class="imgWrap">
+                            <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
+                            <h4>January 24th</h4>
+                        </div>
+                        <p>
+                            Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles.
+                            Tickets include a special collectible item.
+                        </p>
 
-        <article>
-            <h4>January 24th</h4>
-            <p>Premiere day showing of Welcome to Mars in 3D at the Paramount Theatre in Los Angeles. 
-                Tickets include a special collectible item. </p>
-                
-            <span>$25.00</span>
-            <button>Purchase tickets</button>
-        </article>
+                        <span>$25.00</span>
+                        <button>Purchase tickets</button>
+                    </div>
+                </article>
+                <article class="subscription-article-desktop">
+                    <div class="container subscription">
+                        <div class="imgWrap">
+                            <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" />
+                            <h4 class="standard">Standard</h4>
+                        </div>
+                        <div class="subscriptionWrap">
+                            <p class="toBeAnnounced">Standard showing. Dates and locations TBA.</p>
+                            <p class="notification">
+                                Want to be notified when tickets are available? Enter your email:
+                            </p>
+                            <label>
+                                <input class="email" type="text" placeholder="example@email.com" />
+                            </label>
+                            <button class="subscribeBtn">Subscribe for updates</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
 
-        <article>
-            <h4>Standard</h4>
-            <p>Standard showing. Dates and locations TBA.</p>
-            <p>Want to be notified when tickets are available? Enter your email:</p>
+            <button id="prevBtn" class="prevBtn hidden"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="nextBtn" class="nextBtn hidden"><i class="fa-solid fa-chevron-right"></i></button>
 
-            <label>
-                <input type="text"></input>
-            </label>
+            <article class="subscription-article">
+                <div class="container subscription">
+                    <div class="subscriptionWrap">
+                        <p class="toBeAnnounced">Standard showing. Dates and locations TBA.</p>
+                        <p class="notification">Want to be notified when tickets are available? Enter your email:</p>
+                        <label>
+                            <input class="email" type="text" placeholder="example@email.com" />
+                        </label>
+                        <button class="subscribeBtn">Subscribe for updates</button>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-            <button>Subscribe for updates</button>
-        </article>
+        <!--Ska cookies vara en aside eller div?-->
+        <div class="cookies">
+            <div class="cookies-text">
+                <h6>We respect your privacy</h6>
 
-    </section>
+                <p>
+                    This site uses cookies to enhance your experience. Continue browsing or click allow if you agree to
+                    the use of cookies.
+                </p>
+            </div>
+            <div class="cookies-buttons">
+                <button class="reject-button">Reject cookies</button>
+                <button class="allow-button">Allow cookies</button>
+            </div>
+        </div>
 
-    <!--Ska cookies vara en aside eller div?-->
-    <div class="cookies">
-        <h6>We respect your privacy</h6>
-        <p>This site uses cookies to enhance your experience. 
-            Continue browsing or click allow if you agree to the use of cookies.</p>
-        <button>Reject cookies</button>
-        <button>Allow cookies</button>
-    </div>
+        <footer>
+            <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55px" />
 
-    <footer>
-        <img src="assets/mars_icon.png" alt="Mars-icon" class="marsIcon" width="55px">
+            <ul class="contactInfo">
+                <li>Contact</li>
+                <li>Terms of Use</li>
+                <li>Privacy Policy</li>
+            </ul>
 
         <ul class="contactInfo">
             <li><a href="">Contact</a></li>
@@ -118,4 +199,3 @@
     <script type="module" src="script.js"></script>
 </body>
 </html>
-
