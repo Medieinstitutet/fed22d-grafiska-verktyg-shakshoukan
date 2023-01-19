@@ -5,16 +5,9 @@ const aboutLink = document.querySelector('#aboutLink');
 const ticketsLink = document.querySelector('#ticketsLink');
 const header = document.querySelector('#header');
 
-/*const ticket1 = document.querySelector('#ticket1');
-const ticket2 = document.querySelector('#ticket2');
-const ticket3 = document.querySelector('#ticket3');
-
-
-const tickets = [
-    ticket1,
-    ticket2,
-    ticket3
-]; */
+//const dot1 = document.querySelector('#dot1');
+//const dot2 = document.querySelector('#dot2');
+//const dot3 = document.querySelector('#dot3');
 
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
@@ -55,66 +48,6 @@ window.onscroll = function() {
     prevScroll = currentScroll;
 };
 
-/*function changeOpacity() {
-    opacity -= 10;
-
-    if (opacity <= -10) {
-        clearInterval(opacityTimer);
-        firstTicketOnTop = !firstTicketOnTop;
-        opacity = 100;
-    } else if (firstTicketOnTop) {
-        ticket1.style.opacity = `${opacity}%`;
-        ticket2.style.opacity = `${100 - opacity}%`;
-    } else {
-        ticket2.style.opacity = `${opacity}%`;
-        ticket1.style.opacity = `${100 - opacity}%`;
-    }
-}
-
-function swapTickets(fadeOut, fadeIn) {
-    const ticket1X = firstTicketOnTop ? ticket1 : ticket2;
-    const ticket2X = firstTicketOnTop ? ticket2 : ticket1;
-
-    ticket1X.setAttribute('src', tickets[fadeOut].url);
-    ticket2X.setAttribute('src', tickets[fadeIn].url);
-
-    opacityTimer = setInterval(changeOpacity, (fadeTimeInSec * 1000) / 10);
-
-    console.log(ticket1X);
-} 
-
-function nextTicket() {
-    if(currentTicketIndex + 1 > tickets.length -1) {
-        currentTicketIndex = 0;
-        swapTickets(tickets.length - 1, currentTicketIndex);
-    } else {
-        currentTicketIndex += 1;
-        swapTickets(currentTicketIndex -1, currentTicketIndex);
-    }
-
-    console.log('next', currentTicketIndex);
-} 
-
-function prevTicket() {
-    if (currentTicketIndex - 1 < 0) {
-        currentTicketIndex = tickets.length -1;
-    } else {
-        currentTicketIndex -= 1;
-        swapTickets(currentTicketIndex + 1, currentTicketIndex);
-    }
-
-    ticket1.setAttribute('src', tickets[currentTicketIndex].url);
-    ticket1.setAttribute('alt', tickets[currentTicketIndex].url);
-
-    console.log('prev', currentTicketIndex);
-}
-
-
-function init() {
-    ticket1.setAttribute('src', tickets[0].url);
-    ticket2.setAttribute('src', tickets[1].url);
-} */
-
 
 function prevTicket() {
     document.getElementById('ticketCards').scrollLeft += -400;
@@ -123,8 +56,6 @@ function prevTicket() {
 function nextTicket() {
     document.getElementById('ticketCards').scrollLeft += 400;
 };
-   
-
 
 function disableCookies() {
   cookiesContainer.remove();
@@ -141,7 +72,7 @@ nextBtn.addEventListener('click', nextTicket);
 rejectCookiesButton.addEventListener('click', disableCookies);
 acceptCookiesButton.addEventListener('click', disableCookies);
 
-//init();
+
 
 
 
