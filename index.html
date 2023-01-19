@@ -25,7 +25,7 @@
 
             <input type="checkbox" class="checkBtn" id="checkBtn" />
             <button class="menuBtn">
-                <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburgerMenu"></span>
+                <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburger menu"></span>
             </button>
 
             <nav id="menu">
@@ -75,9 +75,9 @@
         <section class="sectionThree" id="tickets">
             <h3>Buy tickets</h3>
 
-            <div class="ticket-cards">
+            <div class="ticket-cards" id="ticketCards">
                 <article>
-                    <div class="container" id="ticket1">
+                    <div class="container">
                         <div class="imgWrap">
                             <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
                             <h4 class="standard">Pre release screening</h4>
@@ -93,7 +93,7 @@
                 </article>
 
                 <article>
-                    <div class="container" id="ticket2">
+                    <div class="container">
                         <div class="imgWrap">
                             <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
                             <h4>January 24th - 3D</h4>
@@ -109,7 +109,7 @@
                 </article>
 
                 <article>
-                    <div class="container" id="ticket3">
+                    <div class="container">
                         <div class="imgWrap">
                             <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" height="213" />
                             <h4>January 24th</h4>
@@ -123,7 +123,13 @@
                         <button>Purchase tickets</button>
                     </div>
                 </article>
+            </div>
+
+            
+
+            
                 <article class="subscription-article-desktop">
+
                     <div class="container subscription">
                         <div class="imgWrap">
                             <img src="/assets/cards_image.jpg" alt="planet Mars" width="100%" />
@@ -143,8 +149,15 @@
                 </article>
             </div>
 
-            <button id="prevBtn" class="prevBtn hidden"><i class="fa-solid fa-chevron-left"></i></button>
-            <button id="nextBtn" class="nextBtn hidden"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="buttonsAndDots">
+                <button id="prevBtn" class="prevBtn"><i class="fa-solid fa-chevron-left fa-3x"></i></button>
+                <div class="indicatorDots">
+                    <span class="dot"><i class="fa-solid fa-circle" id="dot1"></i></span>
+                    <span class="dot"><i class="fa-solid fa-circle" id="dot2"></i></span>
+                    <span class="dot"><i class="fa-solid fa-circle" id="dot3"></i></span>
+                </div>
+                <button id="nextBtn" class="nextBtn"><i class="fa-solid fa-chevron-right fa-3x"></i></button>
+            </div>
 
             <article class="subscription-article">
                 <div class="container subscription">
