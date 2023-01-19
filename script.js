@@ -5,7 +5,7 @@ const aboutLink = document.querySelector('#aboutLink');
 const ticketsLink = document.querySelector('#ticketsLink');
 const header = document.querySelector('#header');
 
-const ticket1 = document.querySelector('#ticket1');
+/*const ticket1 = document.querySelector('#ticket1');
 const ticket2 = document.querySelector('#ticket2');
 const ticket3 = document.querySelector('#ticket3');
 const prevBtn = document.querySelector('#prevBtn');
@@ -15,7 +15,7 @@ const tickets = [
     ticket1,
     ticket2,
     ticket3
-];
+]; */
 
 
 
@@ -55,7 +55,7 @@ window.onscroll = function() {
     prevScroll = currentScroll;
 }
 
-function changeOpacity() {
+/*function changeOpacity() {
     opacity -= 10;
 
     if (opacity <= -10) {
@@ -113,7 +113,7 @@ function prevTicket() {
 function init() {
     ticket1.setAttribute('src', tickets[0].url);
     ticket2.setAttribute('src', tickets[1].url);
-}
+} */
 
 
 function disableCookies() {
@@ -125,14 +125,14 @@ checkBtn.addEventListener('change', toggleMenu);
 aboutLink.addEventListener('click', goToSectionX);
 ticketsLink.addEventListener('click', goToSectionX);
 
-prevBtn.addEventListener('click', prevTicket);
-nextBtn.addEventListener('click', nextTicket);
+//prevBtn.addEventListener('click', prevTicket);
+//nextBtn.addEventListener('click', nextTicket);
 
 
 rejectCookiesButton.addEventListener('click', disableCookies);
 acceptCookiesButton.addEventListener('click', disableCookies);
 
-init();
+//init();
 
 
 

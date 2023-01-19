@@ -104,7 +104,6 @@ h2 {
 }
 
 .container {
-    position: relative;
     width: 17rem;
     height: 30rem;
     margin: 0;
@@ -163,24 +162,12 @@ h2 {
     display: none;
 }
 
-
-.subscription {
-    margin-top: 0;
-    .imgWrap {
-        display: block;
-    }
-}
-
 .subscription-article-desktop {
     display: block;
 }
 
 .hidden {
     display: none;
-}
-
-article.hidden {
-    display: block;
 }
 
 .subscriptionWrap {

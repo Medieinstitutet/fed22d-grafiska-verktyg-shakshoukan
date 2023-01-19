@@ -123,6 +123,7 @@ h1 {
     margin-top: 25rem;
     position: absolute;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -134,6 +135,7 @@ h1 {
     margin-top: 25.4rem;
     margin-left: 1rem;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -148,6 +150,7 @@ h2 {
     line-height: 1.8rem;
     letter-spacing: 0.2em;
     color: #eddfd2;
+    text-transform: uppercase;
 }
 
 .intro {
@@ -175,6 +178,10 @@ h2 {
     cursor: pointer;
     padding: 5px;
     display: inline-block;
+
+    &:hover {
+        background: #370c06;
+    }
 }
 
 .trailerBtn {
@@ -246,17 +253,16 @@ article {
 
 .ticket-cards {
     display: flex;
-    flex-direction: row;
-    position: relative;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .container {
-    position: absolute;
-    top: 0;
-    left: 35%;
     display: flex;
     flex-direction: column;
-    //margin: 0 1rem;
+    margin: 0 1rem;
     max-width: 30rem;
     background: #eddfd2;
     padding-bottom: 1rem;
@@ -325,26 +331,11 @@ article {
     }
 }
 
-
-.subscription {
-    margin-top: 2rem;
-    margin-right: 20rem;
-    position: relative;
-    .imgWrap {
-        display: none;
-    }
-}
-
 .prevBtn {
-    margin-top: 25rem;
     margin-left: 45%;
 }
 
 .subscription-article-desktop {
-    display: none;
-}
-
-article.hidden {
     display: none;
 }
 
@@ -458,24 +449,45 @@ p.notification {
 }
 
 footer {
-    border: 0.5rem solid coral;
     background-color: #bf3111;
-    font-family: 'Dosis', sans-serif;
-    color: white;
+    color: #EDDFD2;
     text-align: center;
     padding: 20px;
     line-height: 2rem;
-}
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    ul li {
+        list-style-type: none;
 
-footer ul li {
-    list-style-type: none;
-}
-
-ul {
-    padding: 0;
-}
-
-hr {
-    width: 15%;
-    color: white;
+    }
+    ul {
+        padding: 0;
+        
+    }
+    hr {
+        width:15%;
+        color: #EDDFD2;
+        border-top: 3px solid #EDDFD2;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 1px;
+    }
+    .marsIcon {
+        width: 55px;
+        height: 55px;
+    }
+    a {
+        color: #EDDFD2;
+        text-decoration: underline transparent;
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
