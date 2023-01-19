@@ -257,6 +257,11 @@ article {
     background: #eddfd2;
     padding-bottom: 1rem;
 
+    .imgWrap {
+        position: relative;
+        text-align: center;
+    }
+
     h4 {
         margin: 0;
         position: absolute;
@@ -271,12 +276,6 @@ article {
         height: fit-content;
         color: #eddfd2;
     }
-
-    /* .imgWrap {
-        position: relative;
-        text-align: center;
-        color: #eddfd2;
-    }*/
 
     p {
         font-family: 'Inter';
@@ -305,22 +304,30 @@ article {
         font-family: 'Inter';
         margin: 1.5rem auto 0;
     }
-}
 
-
-.subscription {
-    .imgWrap {
-        display: none;
+    .subscribeBtn {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c !important;
+        border: none;
+        position: absolute;
+        width: 18.1rem;
+        height: 2.8rem;
+        margin-left: 2rem;
+        margin-top: 12rem;
     }
 }
-
 
 .prevBtn {
     margin-left: 45%;
 }
 
-
-
+.subscription-article-desktop {
+    display: none;
+}
 
 .subscriptionWrap {
     display: flex;
@@ -373,21 +380,6 @@ p.notification {
     height: 2.25rem;
     margin-left: 2rem;
     margin-top: 9rem;
-}
-
-.subscribeBtn {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-    color: #ffffff;
-    text-align: center;
-    background-color: #001a5c !important;
-    border: none;
-    position: absolute;
-    width: 18.1rem;
-    height: 2.8rem;
-    margin-left: 2rem !important;
-    margin-top: 12rem !important;
 }
 
 .cookies {
