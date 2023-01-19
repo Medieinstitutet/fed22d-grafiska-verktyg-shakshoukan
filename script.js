@@ -8,19 +8,20 @@ const header = document.querySelector('#header');
 const ticket1 = document.querySelector('#ticket1');
 const ticket2 = document.querySelector('#ticket2');
 const ticket3 = document.querySelector('#ticket3');
-const ticket4 = document.querySelector('#ticket4');
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
 
 const tickets = [
     ticket1,
     ticket2,
-    ticket3,
-    ticket4
+    ticket3
 ];
 
 const rejectCookiesButton = document.querySelector('.reject-button');
 const acceptCookiesButton = document.querySelector('.allow-button');
 const cookiesContainer = document.querySelector('.cookies');
 
+let currentTicketIndex = 0;
 
 let prevScroll = document.documentElement.scrollTop;
 
@@ -55,6 +56,13 @@ window.onscroll = function() {
     prevScroll = currentScroll;
 }
 
+/* function nextTicket() {
+    if(currentTicketIndex + 1 > tickets.length -1) {
+        currentTicketIndex = 0;
+
+    }
+} */
+
 
 function disableCookies() {
   cookiesContainer.remove();
@@ -64,6 +72,9 @@ function disableCookies() {
 checkBtn.addEventListener('change', toggleMenu); 
 aboutLink.addEventListener('click', goToSection2);
 ticketsLink.addEventListener('click', goToSection3);
+
+//prevBtn.addEventListener('click', prevTicket);
+//extBtn.addEventListener('click', nextTicket);
 
 
 rejectCookiesButton.addEventListener('click', disableCookies);

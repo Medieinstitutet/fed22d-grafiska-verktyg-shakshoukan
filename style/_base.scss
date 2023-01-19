@@ -236,7 +236,6 @@ h2 {
 
 .sectionThree {
     height: 100vh;
-    position: relative;
 }
 
 h3 {
@@ -249,16 +248,26 @@ h3 {
 article {
     display: flex;
     justify-content: center;
+    margin: 2rem;
+}
+
+.ticket-cards {
+    display: flex;
+    flex-direction: row;
 }
 
 .container {
-    // border: 0.5rem solid coral;
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
     max-width: 30rem;
     background: #eddfd2;
     padding-bottom: 1rem;
+
+    .imgWrap {
+        position: relative;
+        text-align: center;
+    }
 
     h4 {
         margin: 0;
@@ -274,12 +283,6 @@ article {
         height: fit-content;
         color: #eddfd2;
     }
-
-    /* .imgWrap {
-        position: relative;
-        text-align: center;
-        color: #eddfd2;
-    }*/
 
     p {
         font-family: 'Inter';
@@ -308,12 +311,29 @@ article {
         font-family: 'Inter';
         margin: 1.5rem auto 0;
     }
+
+    .subscribeBtn {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c !important;
+        border: none;
+        position: absolute;
+        width: 18.1rem;
+        height: 2.8rem;
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
 }
 
-.subscription {
-    .imgWrap {
-        display: none;
-    }
+.prevBtn {
+    margin-left: 45%;
+}
+
+.subscription-article-desktop {
+    display: none;
 }
 
 .subscriptionWrap {
@@ -367,21 +387,6 @@ p.notification {
     height: 2.25rem;
     margin-left: 2rem;
     margin-top: 9rem;
-}
-
-.subscribeBtn {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-    color: #ffffff;
-    text-align: center;
-    background-color: #001a5c !important;
-    border: none;
-    position: absolute;
-    width: 18.1rem;
-    height: 2.8rem;
-    margin-left: 2rem !important;
-    margin-top: 12rem !important;
 }
 
 .cookies {
