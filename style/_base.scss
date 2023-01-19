@@ -377,8 +377,7 @@ article {
     display: flex;
     flex-direction: column;
     position: absolute;
-    max-width: 30rem;
-    min-width: 22rem;
+    width: 22rem;
     height: 16.8rem;
     margin-left: -12rem;
     background-color: #eddfd2;
@@ -401,7 +400,7 @@ p.toBeAnnounced {
 }
 
 p.notification {
-    font-size: 0.9;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4rem;
     color: #000000;
@@ -495,6 +494,13 @@ footer {
     ul li {
         list-style-type: none;
 
+
+hr {
+    width: 15%;
+    color: white;
+}
+
+
     }
     ul {
         padding: 0;
@@ -525,3 +531,4 @@ footer {
         text-decoration: underline;
     }
 }
+
