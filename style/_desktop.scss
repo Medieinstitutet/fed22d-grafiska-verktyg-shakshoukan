@@ -116,8 +116,33 @@ h2 {
         width: 14rem;
     }
 
+    p.toBeAnnounced {
+        font-weight: normal;
+        width: 14rem;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 0rem;
+    }
+
+    p.notification {
+        top: 3.5rem;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+    .email {
+        width: 13.8rem;
+        height: 2.8rem;
+        margin-left: 1.4rem;
+        margin-top: 8.8rem;
+    }
+
     .subscribeBtn {
-        width: unset;
+        width: 14rem;
+        height: 3rem;
+        margin-left: 1.4rem;
+        font-size: 1rem;
+        margin-top: 12.5rem;
     }
 }
 

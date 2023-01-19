@@ -84,7 +84,7 @@ p.toBeAnnounced {
 }
 
 p.notification {
-    font-size: 0.9;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4rem;
     color: #000000;
@@ -112,7 +112,7 @@ p.notification {
 .container {
     .subscribeBtn {
         font-size: 1rem;
-        font-weight: 400;
+        // font-weight: 400;
         line-height: 1.2rem;
         color: #ffffff;
         text-align: center;
