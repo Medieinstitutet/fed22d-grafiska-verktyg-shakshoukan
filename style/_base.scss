@@ -337,8 +337,34 @@ article {
     }
 }
 
+.buttonsAndDots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-circle {
+    margin: 0.5rem;
+    color: #EDDFD2;
+}
+
 .prevBtn {
-    margin-left: 45%;
+    outline: none;
+    background: none;
+    border: none;
+
+    i {
+        color: #EDDFD2;
+    }
+}
+
+.nextBtn {
+    outline: none;
+    background: none;
+    border: none;
+
+    i {
+        color: #EDDFD2;
+    }
 }
 
 .subscription-article-desktop {
