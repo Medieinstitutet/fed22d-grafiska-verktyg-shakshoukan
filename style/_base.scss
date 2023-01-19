@@ -446,24 +446,45 @@ p.notification {
 }
 
 footer {
-    border: 0.5rem solid coral;
     background-color: #bf3111;
-    font-family: 'Dosis', sans-serif;
-    color: white;
+    color: #EDDFD2;
     text-align: center;
     padding: 20px;
     line-height: 2rem;
-}
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    ul li {
+        list-style-type: none;
 
-footer ul li {
-    list-style-type: none;
-}
-
-ul {
-    padding: 0;
-}
-
-hr {
-    width: 15%;
-    color: white;
+    }
+    ul {
+        padding: 0;
+        
+    }
+    hr {
+        width:15%;
+        color: #EDDFD2;
+        border-top: 3px solid #EDDFD2;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 1px;
+    }
+    .marsIcon {
+        width: 55px;
+        height: 55px;
+    }
+    a {
+        color: #EDDFD2;
+        text-decoration: underline transparent;
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
