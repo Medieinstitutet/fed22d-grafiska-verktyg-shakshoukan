@@ -33,6 +33,20 @@
     }
 }
 
+.sectionThree {
+    padding: 0 150px;
+    height: unset;
+}
+
+.ticket-cards {
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+article {
+    margin: 0;
+}
+
 header {
     background-color: aqua;
 }
@@ -93,6 +107,7 @@ h2 {
     position: relative;
     width: 17rem;
     height: 30rem;
+    margin: 0;
 
     h4 {
         width: 90%;
@@ -100,6 +115,10 @@ h2 {
 
     button {
         width: 14rem;
+    }
+
+    .subscribeBtn {
+        width: unset;
     }
 }
 
@@ -118,8 +137,6 @@ h2 {
 }
 
 .imgWrap {
-    position: relative;
-    text-align: center;
     color: #eddfd2;
     display: block;
 
@@ -142,6 +159,10 @@ h2 {
     }
 }
 
+.subscription-article {
+    display: none;
+}
+
 
 .subscription {
     margin-top: 0;
@@ -150,9 +171,12 @@ h2 {
     }
 }
 
+.subscription-article-desktop {
+    display: block;
+}
+
 .hidden {
     display: none;
-
 }
 
 article.hidden {
@@ -160,35 +184,29 @@ article.hidden {
 }
 
 .subscriptionWrap {
-    margin-left: 1rem;
-    max-width: 11rem;
+    position: relative;
+    width: 17rem;
+    min-width: unset;
+    height: 30rem;
+    margin: 0;
     height: 15.9rem;
-    margin-top: 13.1rem;
+    padding: 0;
 }
 
 p.toBeAnnounced {
-    width: 22rem;
+    width: unset;
     margin-left: 0rem;
     text-align: left;
 }
 
 p.notification {
-    width: 19.3rem;
+    width: unset;
     margin-left: 0rem;
 }
 
 .email {
-    width: 18.8rem;
+    width: unset;
     margin-left: 1rem;
-}
-
-.subscribeBtn {
-    width: 19.1rem;
-    margin-left: 1rem !important;
-    width: 19.1rem !important;
-    height: 1.5rem !important;
-
-
 }
 
 footer .marsIcon {
