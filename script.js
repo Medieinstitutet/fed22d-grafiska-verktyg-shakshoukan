@@ -17,6 +17,8 @@ const tickets = [
     ticket3
 ];
 
+
+
 const rejectCookiesButton = document.querySelector('.reject-button');
 const acceptCookiesButton = document.querySelector('.allow-button');
 const cookiesContainer = document.querySelector('.cookies');
@@ -77,6 +79,8 @@ function swapTickets(fadeOut, fadeIn) {
     ticket2X.setAttribute('src', tickets[fadeIn].url);
 
     opacityTimer = setInterval(changeOpacity, (fadeTimeInSec * 1000) / 10);
+
+    console.log(ticket1X);
 } 
 
 function nextTicket() {
