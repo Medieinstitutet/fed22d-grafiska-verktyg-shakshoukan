@@ -39,20 +39,7 @@ a {
 
 h1 {
     font-size: 3.4rem;
-    margin-left: 16rem;
-}
-
-.logo {
-    font-size: 10.3rem;
-    margin-left: 16rem;
-}
-
-h2 {
-    width: 30rem;
-    height: 1.8rem;
-    margin-left: 16rem;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+    //left: 16rem;
 }
 
 .sectionThree {
@@ -68,19 +55,14 @@ h2 {
     margin-right: 5rem;
 }
 
-
 .intro {
-    margin-left: 16rem;
-    margin-right: 14.5rem;
+    max-width: 22rem;
 }
 
 .trailerBtn {
-    margin: 28px 0px 28px 260px;
+    margin-left: 37%;
 }
 
-.infoBtn {
-    margin: 28px 0px 28px 30px;
-}
 
 .subscription {
     margin-top: 2rem;
