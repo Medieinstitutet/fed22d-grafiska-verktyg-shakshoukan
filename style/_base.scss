@@ -98,12 +98,9 @@ a {
 //---------------------SECTION 1---------------------
 //---------------------------------------------------
 
-
-
 .sectionOne {
     background-image: url('../assets/background.jpg');
     background-size: cover;
-    //height: 130vh;
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -349,16 +346,7 @@ button {
     white-space: nowrap;
 }
 
-h5 {
-    font-family: 'Dosis';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    color: #eddfd2;
-    margin: 0;
-    padding-top: 1.8rem;
-}
+
 
 .buttonsAndDots {
     display: flex;
@@ -446,6 +434,10 @@ p.notification {
     margin-top: 9rem;
 }
 
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
 .cookies {
     position: fixed;
     bottom: 0;
@@ -462,6 +454,19 @@ p.notification {
         padding: 2rem 2.8rem;
         margin: 0;
     }
+
+    h5 {
+        font-family: 'Dosis';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #eddfd2;
+        margin: 0;
+        padding-top: 1.8rem;
+      }
+    
+
 }
 
 .cookies-buttons {
@@ -502,6 +507,11 @@ p.notification {
     }
 }
 
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
 footer {
     background-color: #bf3111;
     color: #EDDFD2;
@@ -514,19 +524,20 @@ footer {
     font-size: 14px;
     ul li {
         list-style-type: none;
+    }
 
-
-hr {
+    hr {
     width: 15%;
     color: white;
-}
-
-
     }
+
+
     ul {
         padding: 0;
         
     }
+
+
     hr {
         width:15%;
         color: #EDDFD2;
@@ -536,10 +547,12 @@ hr {
         border-right: none;
         border-radius: 1px;
     }
+
     .marsIcon {
         width: 55px;
         height: 55px;
     }
+
     a {
         color: #EDDFD2;
         text-decoration: underline transparent;
@@ -548,6 +561,7 @@ hr {
         font-weight: 600;
         font-size: 14px;
     }
+
     a:hover {
         text-decoration: underline;
     }
