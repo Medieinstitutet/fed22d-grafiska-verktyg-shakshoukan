@@ -165,7 +165,7 @@ h2 {
 
 .trailerBtn,
 .infoBtn {
-    background-color: #bf3111;
+    background-color: #9b2910;
     color: #eddfd2;
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
@@ -185,6 +185,7 @@ h2 {
 
 .trailerBtn {
     margin-left: 3rem;
+    
 }
 
 //---------------------------------------------------
@@ -537,17 +538,6 @@ footer {
         
     }
 
-
-    hr {
-        width:15%;
-        color: #EDDFD2;
-        border-top: 3px solid #EDDFD2;
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        border-radius: 1px;
-    }
-
     .marsIcon {
         width: 55px;
         height: 55px;
@@ -567,3 +557,13 @@ footer {
     }
 }
 
+
+hr {
+    width:15%;
+    color: #EDDFD2;
+    border-top: 3px solid #EDDFD2;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+    }
