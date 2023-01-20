@@ -1,3 +1,8 @@
+.marsIcon {
+    height: 4.3rem;
+    width: 4.3rem;
+}
+
 .sectionTwo {
     padding-top: 30px;
 
@@ -53,6 +58,7 @@ h2 {
 .sectionThree {
     h3 {
         text-align: left;
+        margin-left: 3rem;
         margin-bottom: 3rem;
     }
 }
@@ -84,8 +90,7 @@ h2 {
 .subscriptionWrap {
     width: 28rem;
     height: 11.9rem;
-    margin-left: -5rem;
-    margin-top: 5rem;
+    margin-left: -2rem;
 }
 
 p.toBeAnnounced {
@@ -189,10 +194,4 @@ footer {
     }
 }
 
-
-
-
-.container {
-    width: 20rem;
-}
 

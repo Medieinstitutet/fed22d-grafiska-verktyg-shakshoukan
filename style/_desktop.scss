@@ -1,3 +1,7 @@
+.sectionOne {
+    height: 110vh;
+}
+
 .sectionTwo {
     padding: 150px;
 
@@ -34,7 +38,7 @@
 }
 
 .sectionThree {
-    padding: 0 150px;
+    padding: 0 5rem;
     height: unset;
 }
 
@@ -55,8 +59,9 @@ header {
     display: flex;
     position: fixed;
     margin-left: 49%;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 5.4rem;
+    width: 5.4rem;
+    margin-top: 2rem;
 }
 
 .checkBtn {
@@ -69,7 +74,7 @@ header {
 
 nav {
     left: 0;
-    padding-top: 1rem;
+    padding-top: 4rem;
     background: transparent;
     flex-direction: row;
     justify-content: space-around;

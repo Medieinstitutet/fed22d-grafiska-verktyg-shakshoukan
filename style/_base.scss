@@ -20,6 +20,8 @@ header.hide {
 }
 
 .marsIcon {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     height: 3rem;
     width: 3rem;
     z-index: 3;
@@ -104,10 +106,9 @@ h6 {
 }
 
 .sectionOne {
-    min-height: 100vh;
     background-image: url('../assets/background.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: 58% 80%;
@@ -236,7 +237,7 @@ h2 {
 }
 
 .sectionThree {
-    height: 100vh;
+    height: 140vh;
 }
 
 h3 {
@@ -381,10 +382,10 @@ article {
     height: 16.8rem;
     margin-left: -12rem;
     background-color: #eddfd2;
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-family: 'Inter', sans-serif;
     padding: 1rem;
-}
+} 
 
 p.toBeAnnounced {
     font-size: 1rem;
