@@ -26,6 +26,8 @@ Our group was assigned to code according to a specific design in Figma and furth
 # Mobile
 ![image](https://user-images.githubusercontent.com/114933424/213733704-f82c7fc8-6b36-4bdf-a187-53abc97b3132.png)
 
+# Lighthouse analysis
+![image](/assets/lighthouseTest.png)
 
 
 # About the design
