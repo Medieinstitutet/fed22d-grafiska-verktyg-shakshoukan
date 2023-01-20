@@ -1,6 +1,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9677287&assignment_repo_type=AssignmentRepo)
 
-Our group was assigned to code according to a specific design in Figma and description. The pictures below show our result of the coding and further down the page you can read more about the design itself.
+Our group was assigned to code according to a specific design in Figma and further description. The pictures below show our result of the coding and further down the page you can read more about the design itself.
 
 # Desktop
 ![image](https://user-images.githubusercontent.com/114933424/213727936-4c6a8edd-5971-4fd1-848e-388cde6e621b.png)
