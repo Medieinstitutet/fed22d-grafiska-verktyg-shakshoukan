@@ -8,6 +8,10 @@ body {
     overflow-x: scroll;
 }
 
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
 header {
     height: 0vh;
     position: fixed;
@@ -19,7 +23,7 @@ header.hide {
     opacity: 0;
 }
 
-.marsIcon {
+header.marsIcon {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     height: 3rem;
@@ -90,25 +94,14 @@ a {
     height: 0;
 }
 
-button {
-    white-space: nowrap;
-}
-
-h5 {
-    font-family: 'Dosis';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    color: #eddfd2;
-    margin: 0;
-    padding-top: 1.8rem;
-}
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
 
 .sectionOne {
     background-image: url('../assets/background.jpg');
     background-size: cover;
-    height: 130vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: 58% 80%;
@@ -122,8 +115,10 @@ h1 {
     font-weight: 400;
     text-align: center;
     margin-left: 1rem;
-    margin-top: 25rem;
-    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 35%;
+    position: relative;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -132,20 +127,20 @@ h1 {
     display: block;
     font-family: 'East Sea Dokdo', sans-serif;
     font-size: 10.3rem;
-    position: absolute;
+    position: relative;
     text-align: center;
-    margin-top: 25.4rem;
+    top: 27%;
     margin-left: 1rem;
     color: #ffffff;
     text-transform: uppercase;
 }
 
 h2 {
-    position: absolute;
+    position: relative;
     width: 20rem;
     height: 1.8rem;
-    margin-left: 0.5rem;
-    margin-top: 37rem;
+    margin: auto;
+    top: 25%;
     font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
@@ -159,27 +154,29 @@ h2 {
     font-size: 0.9rem;
     font-family: 'Inter', sans-serif;
     line-height: 1.4;
+    max-width: 20rem;
     color: #eddfd2;
-    margin-left: 1rem;
-    margin-right: 1.4rem;
-    margin-top: 41rem;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 27%;
     text-align: left;
-    display: inline-block;
 }
 
 .trailerBtn,
 .infoBtn {
-    background-color: #bf3111;
+    background-color: #9b2910;
     color: #eddfd2;
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
     width: 8rem;
     height: 2.8rem;
+    position: relative;
+    top: 30%;
     border: none;
     text-align: center;
     cursor: pointer;
-    padding: 5px;
-    display: inline-block;
+    margin-right: 1rem;
 
     &:hover {
         background: #370c06;
@@ -187,12 +184,14 @@ h2 {
 }
 
 .trailerBtn {
-    margin: 28px 0px 28px 20px;
+    margin-left: 3rem;
+    
 }
 
-.infoBtn {
-    margin: 28px 0px 28px 20px;
-}
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
+
 
 .sectionTwo {
     padding-top: 30px;
@@ -235,6 +234,10 @@ h2 {
         font-style: normal;
     }
 }
+
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
 
 .sectionThree {
     height: 140vh;
@@ -318,7 +321,7 @@ article {
         width: 18rem;
         height: 3rem;
         color: #ffffff;
-        background: #bf3111;
+        background: #9b2910;
         border: none;
         font-family: 'Inter';
         margin: 1.5rem auto 0;
@@ -339,6 +342,12 @@ article {
         margin-top: 12rem;
     }
 }
+
+button {
+    white-space: nowrap;
+}
+
+
 
 .buttonsAndDots {
     display: flex;
@@ -426,12 +435,17 @@ p.notification {
     margin-top: 9rem;
 }
 
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
 .cookies {
     position: fixed;
     bottom: 0;
     background: #000000;
     padding-bottom: 2.8rem;
     width: 100%;
+    z-index: 2;
 
     p {
         font-family: 'Inter';
@@ -442,6 +456,19 @@ p.notification {
         padding: 2rem 2.8rem;
         margin: 0;
     }
+
+    h5 {
+        font-family: 'Dosis';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #eddfd2;
+        margin: 0;
+        padding-top: 1.8rem;
+      }
+    
+
 }
 
 .cookies-buttons {
@@ -461,14 +488,14 @@ p.notification {
     padding: 0.7rem;
 
     &:hover {
-        background: #bf3111;
-        border: 2px solid #bf3111;
+        background: #9b2910;
+        border: 2px solid #9b2910;
     }
 }
 
 .allow-button {
-    background: #bf3111;
-    border: 2px solid#bf3111;
+    background: #9b2910;
+    border: 2px solid#9b2910;
     color: #ffffff;
     font-family: 'Inter';
     font-style: normal;
@@ -482,8 +509,13 @@ p.notification {
     }
 }
 
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
 footer {
-    background-color: #bf3111;
+    background-color: #9b2910;
     color: #EDDFD2;
     text-align: center;
     padding: 20px;
@@ -494,32 +526,26 @@ footer {
     font-size: 14px;
     ul li {
         list-style-type: none;
+    }
 
-
-hr {
+    hr {
     width: 15%;
     color: white;
-}
-
-
     }
+
+
     ul {
         padding: 0;
         
     }
-    hr {
-        width:15%;
-        color: #EDDFD2;
-        border-top: 3px solid #EDDFD2;
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        border-radius: 1px;
-    }
+
     .marsIcon {
         width: 55px;
-        height: 55px;
+        height: 55px ;
+        position: relative;
+        margin: auto;
     }
+
     a {
         color: #EDDFD2;
         text-decoration: underline transparent;
@@ -527,9 +553,21 @@ hr {
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
+        text-transform: none !important;
     }
+
     a:hover {
         text-decoration: underline;
     }
 }
 
+
+hr {
+    width:15%;
+    color: #EDDFD2;
+    border-top: 3px solid #EDDFD2;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+    }

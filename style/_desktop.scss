@@ -1,6 +1,84 @@
+
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
+.marsIcon {
+    display: flex;
+    position: fixed;
+    margin-left: 49%;
+    height: 5.4rem;
+    width: 5.4rem;
+    margin-top: 2rem;
+}
+
+.checkBtn {
+    display: none;
+}
+
+.menuBtn {
+    display: none;
+}
+
+nav {
+    left: 0;
+    padding-top: 4rem;
+    background: transparent;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8%;
+    width: 80vw;
+    height: 30vh;
+}
+
+a {
+    font-size: 1.4rem;
+}
+
+
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
+
 .sectionOne {
     height: 110vh;
 }
+
+h1 {
+    margin-left: 5rem;
+    max-width: 25rem;
+}
+
+.logo {
+    margin-left: 5rem;
+    max-width: 25rem;
+    top: 28%;
+}
+
+h2 {
+    width: 30rem;
+    margin-left: 8rem;
+    top: 28%;
+}
+
+.intro {
+    margin-left: 8rem;
+    top: 30%;
+}
+
+.trailerBtn {
+    margin-left: 8rem;
+    top: 32%;
+}
+
+.infoBtn {
+    top: 32%;
+}
+
+
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
 
 .sectionTwo {
     padding: 150px;
@@ -37,6 +115,10 @@
     }
 }
 
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
+
 .sectionThree {
     padding: 0 5rem;
     height: unset;
@@ -49,59 +131,6 @@
 
 article {
     margin: 0;
-}
-
-.marsIcon {
-    display: flex;
-    position: fixed;
-    margin-left: 49%;
-    height: 5.4rem;
-    width: 5.4rem;
-    margin-top: 2rem;
-}
-
-.checkBtn {
-    display: none;
-}
-
-.menuBtn {
-    display: none;
-}
-
-nav {
-    left: 0;
-    padding-top: 4rem;
-    background: transparent;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 8%;
-    width: 80vw;
-    height: 30vh;
-}
-
-a {
-    font-size: 1.4rem;
-}
-
-h1 {
-    font-size: 3.4rem;
-    margin-left: 5rem;
-    margin-top: 18rem;
-}
-
-.logo {
-    font-size: 10.3rem;
-    margin-top: 18.8rem;
-    margin-left: 5rem;
-}
-
-h2 {
-    width: 30rem;
-    height: 1.8rem;
-    margin-top: 31rem;
-    margin-left: 5rem;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
 }
 
 .container {
@@ -147,19 +176,6 @@ h2 {
     }
 }
 
-.intro {
-    margin-left: 5rem;
-    margin-right: 63rem;
-    margin-top: 35rem;
-}
-
-.trailerBtn {
-    margin: 28px 0px 28px 80px;
-}
-
-.infoBtn {
-    margin: 28px 0px 28px 30px;
-}
 
 .imgWrap {
     color: #eddfd2;
@@ -226,10 +242,10 @@ p.notification {
     margin-left: 1rem;
 }
 
-footer .marsIcon {
-    width: 94px;
-    height: 94px;
-}
+
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
 
 .cookies {
     align-items: center;
@@ -238,3 +254,14 @@ footer .marsIcon {
     padding-left: 7rem;
     box-sizing: border-box;
 }
+
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
+footer .marsIcon {
+    width: 94px;
+    height: 94px;
+}
+
