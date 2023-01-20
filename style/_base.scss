@@ -321,7 +321,7 @@ article {
         width: 18rem;
         height: 3rem;
         color: #ffffff;
-        background: #bf3111;
+        background: #9b2910;
         border: none;
         font-family: 'Inter';
         margin: 1.5rem auto 0;
@@ -487,14 +487,14 @@ p.notification {
     padding: 0.7rem;
 
     &:hover {
-        background: #bf3111;
-        border: 2px solid #bf3111;
+        background: #9b2910;
+        border: 2px solid #9b2910;
     }
 }
 
 .allow-button {
-    background: #bf3111;
-    border: 2px solid#bf3111;
+    background: #9b2910;
+    border: 2px solid#9b2910;
     color: #ffffff;
     font-family: 'Inter';
     font-style: normal;
@@ -514,7 +514,7 @@ p.notification {
 //---------------------------------------------------
 
 footer {
-    background-color: #bf3111;
+    background-color: #9b2910;
     color: #EDDFD2;
     text-align: center;
     padding: 20px;
@@ -540,7 +540,9 @@ footer {
 
     .marsIcon {
         width: 55px;
-        height: 55px;
+        height: 55px ;
+        position: relative;
+        margin: auto;
     }
 
     a {
@@ -550,6 +552,7 @@ footer {
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
+        text-transform: none !important;
     }
 
     a:hover {
