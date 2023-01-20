@@ -25,7 +25,7 @@
 
             <input type="checkbox" class="checkBtn" id="checkBtn" />
             <button class="menuBtn">
-                <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" role="hamburger menu"></span>
+                <span class="fa-sharp fa-solid fa-bars fa-3x" id="hamburger" aria-label="hamburger menu"></span>
             </button>
 
             <nav id="menu">
@@ -123,10 +123,8 @@
                         <button>Purchase tickets</button>
                     </div>
                 </article>
-            </div>
 
-            
-            
+
                 <article class="subscription-article-desktop">
 
                     <div class="container subscription">
@@ -149,30 +147,29 @@
             </div>
 
             <div class="buttonsAndDots">
-                <button id="prevBtn" class="prevBtn"><i class="fa-solid fa-chevron-left fa-3x"></i></button>
+                <button id="prevBtn" class="prevBtn" aria-label="previous ticket"><i class="fa-solid fa-chevron-left fa-3x"></i></button>
                 <div class="indicatorDots">
                     <span class="dot"><i class="fa-solid fa-circle" id="dot1"></i></span>
                     <span class="dot"><i class="fa-solid fa-circle" id="dot2"></i></span>
                     <span class="dot"><i class="fa-solid fa-circle" id="dot3"></i></span>
                 </div>
-                <button id="nextBtn" class="nextBtn"><i class="fa-solid fa-chevron-right fa-3x"></i></button>
+                <button id="nextBtn" class="nextBtn" aria-label="next ticket"><i class="fa-solid fa-chevron-right fa-3x"></i></button>
             </div>
 
             <article class="subscription-article">
-                <div class="container subscription">
-                    <div class="subscriptionWrap">
+                <div class="container subscription"> 
+                    <div class="subscriptionWrap"> 
                         <p class="toBeAnnounced">Standard showing. Dates and locations TBA.</p>
                         <p class="notification">Want to be notified when tickets are available? Enter your email:</p>
                         <label>
                             <input class="email" type="text" placeholder="example@email.com" />
                         </label>
                         <button class="subscribeBtn">Subscribe for updates</button>
-                    </div>
-                </div>
+                    </div> 
+                </div> 
             </article>
         </section>
 
-        <!--Ska cookies vara en aside eller div?-->
         <div class="cookies">
             <div class="cookies-text">
                 <h5>We respect your privacy</h5>
