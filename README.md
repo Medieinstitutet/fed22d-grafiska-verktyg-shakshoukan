@@ -1,25 +1,31 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9677287&assignment_repo_type=AssignmentRepo)
 
-Desktop:
+Our group was given the task of coding according to a description and draft in Figma. The pictures below show our result of the coding and further down the page you can read more about the design itself.
+
+# Desktop
 ![image](https://user-images.githubusercontent.com/114933424/213727936-4c6a8edd-5971-4fd1-848e-388cde6e621b.png)
 
-Desktop:
+# Desktop
 ![image](https://user-images.githubusercontent.com/114933424/213728170-2bab7315-d906-45e1-bebb-6f921ca9cd98.png)
 
-Desktop:
+# Desktop
 ![image](https://user-images.githubusercontent.com/114933424/213728363-84c30901-08f8-40d7-853e-be21dc6030d0.png)
 
-Mobil/desktop - sidomeny:
-![image](https://user-images.githubusercontent.com/114933424/213728607-9357c586-7d10-4fcd-be22-788f1fecca10.png)
-
-Tablet:
+# Tablet
 ![image](https://user-images.githubusercontent.com/114933424/213728952-5f3ef66b-cf74-4a60-8344-3bac805d5533.png)
 
-Tablet:
+# Tablet
 ![image](https://user-images.githubusercontent.com/114933424/213729149-8d77c4fb-0c36-4f56-a540-ae671b99cde6.png)
 
-Mobil:
+# Mobile/tablet - side menu
+![image](https://user-images.githubusercontent.com/114933424/213728607-9357c586-7d10-4fcd-be22-788f1fecca10.png)
+
+# Mobile
 ![image](https://user-images.githubusercontent.com/114933424/213729840-0dd1ed30-00f6-4cd1-be0f-ba9b5ece9a42.png)
+
+# Mobile
+![image](https://user-images.githubusercontent.com/114933424/213733704-f82c7fc8-6b36-4bdf-a187-53abc97b3132.png)
+
 
 
 # About the design
