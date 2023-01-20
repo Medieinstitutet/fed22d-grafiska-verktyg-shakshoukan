@@ -1,0 +1,267 @@
+
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
+.marsIcon {
+    display: flex;
+    position: fixed;
+    margin-left: 49%;
+    height: 5.4rem;
+    width: 5.4rem;
+    margin-top: 2rem;
+}
+
+.checkBtn {
+    display: none;
+}
+
+.menuBtn {
+    display: none;
+}
+
+nav {
+    left: 0;
+    padding-top: 4rem;
+    background: transparent;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8%;
+    width: 80vw;
+    height: 30vh;
+}
+
+a {
+    font-size: 1.4rem;
+}
+
+
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
+
+.sectionOne {
+    height: 110vh;
+}
+
+h1 {
+    margin-left: 5rem;
+    max-width: 25rem;
+}
+
+.logo {
+    margin-left: 5rem;
+    max-width: 25rem;
+    top: 28%;
+}
+
+h2 {
+    width: 30rem;
+    margin-left: 8rem;
+    top: 28%;
+}
+
+.intro {
+    margin-left: 8rem;
+    top: 30%;
+}
+
+.trailerBtn {
+    margin-left: 8rem;
+    top: 32%;
+}
+
+.infoBtn {
+    top: 32%;
+}
+
+
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
+
+.sectionTwo {
+    padding: 150px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pic1 {
+        width: 380px;
+        height: 400px;
+        display: block;
+    }
+
+    .pic2 {
+        width: 380px;
+        height: 400px;
+        display: block;
+    }
+
+    .pic2tablet {
+        display: none;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    p {
+        width: 380px;
+        height: 400px;
+        line-height: 23px;
+    }
+}
+
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
+
+.sectionThree {
+    padding: 0 5rem;
+    height: unset;
+}
+
+.ticket-cards {
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+article {
+    margin: 0;
+}
+
+.container {
+    width: 17rem;
+    height: 30rem;
+    margin: 0;
+
+    h4 {
+        width: 90%;
+    }
+
+    button {
+        width: 14rem;
+    }
+
+    p.toBeAnnounced {
+        font-weight: normal;
+        width: 14rem;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 0rem;
+    }
+
+    p.notification {
+        top: 3.5rem;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+    .email {
+        width: 13.8rem;
+        height: 2.8rem;
+        margin-left: 1.4rem;
+        margin-top: 8.8rem;
+    }
+
+    .subscribeBtn {
+        width: 14rem;
+        height: 3rem;
+        margin-left: 1.4rem;
+        font-size: 1rem;
+        margin-top: 12.5rem;
+    }
+}
+
+
+.imgWrap {
+    color: #eddfd2;
+    display: block;
+
+    .img {
+        position: absolute;
+        width: 272px;
+        height: 213.5px;
+        left: -5.28px;
+        top: 0px;
+    }
+
+    .imgWidth {
+        width: 272px;
+    }
+
+    h4.standard {
+        font-family: 'Dosis', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.subscription-article {
+    display: none;
+}
+
+.subscription-article-desktop {
+    display: block;
+}
+
+.buttonsAndDots {
+    display: none;
+}
+
+.subscriptionWrap {
+    position: relative;
+    width: 17rem;
+    min-width: unset;
+    height: 30rem;
+    margin: 0;
+    height: 15.9rem;
+    padding: 0;
+}
+
+p.toBeAnnounced {
+    width: unset;
+    margin-left: 0rem;
+    text-align: left;
+}
+
+p.notification {
+    width: unset;
+    margin-left: 0rem;
+}
+
+.email {
+    width: unset;
+    margin-left: 1rem;
+}
+
+
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
+.cookies {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    box-sizing: border-box;
+}
+
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
+footer .marsIcon {
+    width: 94px;
+    height: 94px;
+}
+

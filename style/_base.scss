@@ -1,0 +1,573 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #18211f;
+    overflow-x: scroll;
+}
+
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
+header {
+    height: 0vh;
+    position: fixed;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+header.hide {
+    opacity: 0;
+}
+
+header.marsIcon {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    z-index: 3;
+    position: fixed;
+}
+
+.checkBtn {
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    opacity: 0;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.menuBtn {
+    display: block;
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    height: 3.4rem;
+    width: 4rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 6;
+}
+
+.fa-bars {
+    color: #eddfd2;
+}
+
+.fa-xmark {
+    color: #eddfd2;
+}
+
+nav {
+    top: 0;
+    left: 100%;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    background-color: #18211f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: 0.4s;
+}
+
+nav.showMenu {
+    left: 0;
+}
+
+a {
+    margin-bottom: 3.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #eddfd2;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 0;
+}
+
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
+
+.sectionOne {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 58% 80%;
+    position: relative;
+}
+
+h1 {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 35%;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: block;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 10.3rem;
+    position: relative;
+    text-align: center;
+    top: 27%;
+    margin-left: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h2 {
+    position: relative;
+    width: 20rem;
+    height: 1.8rem;
+    margin: auto;
+    top: 25%;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.2em;
+    color: #eddfd2;
+    text-transform: uppercase;
+}
+
+.intro {
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+    max-width: 20rem;
+    color: #eddfd2;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 27%;
+    text-align: left;
+}
+
+.trailerBtn,
+.infoBtn {
+    background-color: #9b2910;
+    color: #eddfd2;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    width: 8rem;
+    height: 2.8rem;
+    position: relative;
+    top: 30%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1rem;
+
+    &:hover {
+        background: #370c06;
+    }
+}
+
+.trailerBtn {
+    margin-left: 3rem;
+    
+}
+
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
+
+
+.sectionTwo {
+    padding-top: 30px;
+    padding: 5%;
+
+    .pic1 {
+        width: 350px;
+        height: 368px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pic2 {
+        display: none;
+    }
+
+    .pic2tablet {
+        display: none;
+    }
+
+    h3 {
+        color: #eddfd2;
+        font-family: 'Dosis';
+        font-weight: 600;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #eddfd2;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-style: normal;
+    }
+}
+
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
+
+.sectionThree {
+    height: 140vh;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #eddfd2;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.ticket-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    max-width: 30rem;
+    background: #eddfd2;
+    padding-bottom: 1rem;
+
+    .imgWrap {
+        position: relative;
+        text-align: center;
+    }
+
+    h4 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        height: fit-content;
+        color: #eddfd2;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        padding: 0 0.8rem;
+    }
+
+    span {
+        font-family: 'Dosis';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+
+    button {
+        width: 18rem;
+        height: 3rem;
+        color: #ffffff;
+        background: #9b2910;
+        border: none;
+        font-family: 'Inter';
+        margin: 1.5rem auto 0;
+    }
+
+    .subscribeBtn {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c !important;
+        border: none;
+        position: absolute;
+        width: 18.1rem;
+        height: 2.8rem;
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+button {
+    white-space: nowrap;
+}
+
+
+
+.buttonsAndDots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-circle {
+    margin: 0.5rem;
+    color: #EDDFD2;
+}
+
+.prevBtn {
+    outline: none;
+    background: none;
+    border: none;
+
+    i {
+        color: #EDDFD2;
+    }
+}
+
+.nextBtn {
+    outline: none;
+    background: none;
+    border: none;
+
+    i {
+        color: #EDDFD2;
+    }
+}
+
+.subscription-article-desktop {
+    display: none;
+}
+
+.subscriptionWrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 22rem;
+    height: 16.8rem;
+    margin-left: -12rem;
+    background-color: #eddfd2;
+    margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem;
+} 
+
+p.toBeAnnounced {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 21rem;
+    height: 3.25rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+}
+
+p.notification {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #000000;
+    position: absolute;
+    width: 18.3rem;
+    height: 3.25rem;
+    margin-left: 1rem;
+    top: 4.6rem;
+    text-align: left;
+}
+
+.email {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    background-color: white;
+    border: none;
+    position: absolute;
+    width: 17.8rem;
+    height: 2.25rem;
+    margin-left: 2rem;
+    margin-top: 9rem;
+}
+
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    background: #000000;
+    padding-bottom: 2.8rem;
+    width: 100%;
+    z-index: 2;
+
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #eddfd2;
+        padding: 2rem 2.8rem;
+        margin: 0;
+    }
+
+    h5 {
+        font-family: 'Dosis';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #eddfd2;
+        margin: 0;
+        padding-top: 1.8rem;
+      }
+    
+
+}
+
+.cookies-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.reject-button {
+    box-sizing: border-box;
+    background: #eddfd2;
+    border: 2px solid #eb5616;
+    font-family: 'Inter';
+    padding: 0.7rem;
+
+    &:hover {
+        background: #9b2910;
+        border: 2px solid #9b2910;
+    }
+}
+
+.allow-button {
+    background: #9b2910;
+    border: 2px solid#9b2910;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.7rem;
+
+    &:hover {
+        background: #370c06;
+        border: 2px solid #370c06;
+    }
+}
+
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
+footer {
+    background-color: #9b2910;
+    color: #EDDFD2;
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    ul li {
+        list-style-type: none;
+    }
+
+    hr {
+    width: 15%;
+    color: white;
+    }
+
+
+    ul {
+        padding: 0;
+        
+    }
+
+    .marsIcon {
+        width: 55px;
+        height: 55px ;
+        position: relative;
+        margin: auto;
+    }
+
+    a {
+        color: #EDDFD2;
+        text-decoration: underline transparent;
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: none !important;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+hr {
+    width:15%;
+    color: #EDDFD2;
+    border-top: 3px solid #EDDFD2;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+    }

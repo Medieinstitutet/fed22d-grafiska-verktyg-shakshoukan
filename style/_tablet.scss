@@ -1,0 +1,207 @@
+
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
+.marsIcon {
+    height: 4.3rem;
+    width: 4.3rem;
+}
+
+nav {
+    padding-left: 3rem;
+}
+
+a {
+    font-size: 2rem;
+    margin-bottom: 6.25rem;
+}
+
+
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
+
+.intro {
+    max-width: 22rem;
+}
+
+.trailerBtn {
+    margin-left: 37%;
+}
+
+
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
+
+.sectionTwo {
+    padding-top: 30px;
+
+    .pic2tablet {
+        width: 678px;
+        height: 713.68px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pic1 {
+        display: none;
+    }
+
+    h3 {
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+    p {
+        line-height: 35px;
+    }
+}
+
+
+
+
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
+
+.sectionThree {
+    h3 {
+        text-align: left;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.ticket-cards {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+.subscription {
+    margin-top: 2rem;
+    margin-right: 25rem;
+}
+
+.subscriptionWrap {
+    width: 28rem;
+    height: 11.9rem;
+    margin-left: -2rem;
+}
+
+p.toBeAnnounced {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    color: #000000;
+    position: absolute;
+    width: 27rem;
+    height: 3.25rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    text-align: center;
+}
+
+p.notification {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #000000;
+    position: absolute;
+    width: 25rem;
+    height: 3.25rem;
+    margin-left: 1rem;
+    top: 3.6rem;
+    text-align: left;
+}
+
+.email {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    background-color: white;
+    border: none;
+    position: absolute;
+    width: 23.8rem;
+    height: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 7rem;
+}
+
+.container {
+    .subscribeBtn {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        background-color: #001a5c;
+        border: none;
+        position: absolute;
+        width: 24.1rem;
+        height: 2rem;
+        margin-left: 2rem;
+        margin-top: 9.5rem;
+    }
+}
+
+
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
+.cookies {
+    display: flex;
+    padding-bottom: 0;
+
+    p {
+        margin: 0.4rem;
+        padding: 0;
+    }
+
+    .cookies-buttons {
+        margin: 1.5rem 1rem 1.5rem 5rem;
+    }
+
+    h5 {
+    text-align: left;
+    margin: 0.4rem;
+    padding-top: 0;
+    }
+
+}
+
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center; 
+    .marsIcon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    ul {
+        left: 30%;
+    }
+    .copyright {
+        margin-right: 100px;
+    }
+    .contactInfo {
+        margin-right: 400px;
+    }
+}
+
+
