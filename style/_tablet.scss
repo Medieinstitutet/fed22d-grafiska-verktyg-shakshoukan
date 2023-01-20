@@ -1,7 +1,39 @@
+
+// --------------------------------------------------
+//----------------------HEADER-----------------------
+//---------------------------------------------------
+
 .marsIcon {
     height: 4.3rem;
     width: 4.3rem;
 }
+
+nav {
+    padding-left: 3rem;
+}
+
+a {
+    font-size: 2rem;
+    margin-bottom: 6.25rem;
+}
+
+
+//---------------------------------------------------
+//---------------------SECTION 1---------------------
+//---------------------------------------------------
+
+.intro {
+    max-width: 22rem;
+}
+
+.trailerBtn {
+    margin-left: 37%;
+}
+
+
+//---------------------------------------------------
+//--------------------SECTION 2----------------------
+//---------------------------------------------------
 
 .sectionTwo {
     padding-top: 30px;
@@ -28,32 +60,12 @@
     }
 }
 
-nav {
-    padding-left: 3rem;
-}
 
-a {
-    font-size: 2rem;
-    margin-bottom: 6.25rem;
-}
 
-h1 {
-    font-size: 3.4rem;
-    margin-left: 16rem;
-}
 
-.logo {
-    font-size: 10.3rem;
-    margin-left: 16rem;
-}
-
-h2 {
-    width: 30rem;
-    height: 1.8rem;
-    margin-left: 16rem;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-}
+//---------------------------------------------------
+//--------------------SECTION 3----------------------
+//---------------------------------------------------
 
 .sectionThree {
     h3 {
@@ -68,19 +80,6 @@ h2 {
     margin-right: 5rem;
 }
 
-
-.intro {
-    margin-left: 16rem;
-    margin-right: 14.5rem;
-}
-
-.trailerBtn {
-    margin: 28px 0px 28px 260px;
-}
-
-.infoBtn {
-    margin: 28px 0px 28px 30px;
-}
 
 .subscription {
     margin-top: 2rem;
@@ -120,7 +119,7 @@ p.notification {
 }
 
 .email {
-    font-size: 0.9;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4rem;
     background-color: white;
@@ -148,6 +147,11 @@ p.notification {
     }
 }
 
+
+//---------------------------------------------------
+//---------------------COOKIES-----------------------
+//---------------------------------------------------
+
 .cookies {
     display: flex;
     padding-bottom: 0;
@@ -160,13 +164,19 @@ p.notification {
     .cookies-buttons {
         margin: 1.5rem 1rem 1.5rem 5rem;
     }
-}
 
-h5 {
+    h5 {
     text-align: left;
     margin: 0.4rem;
     padding-top: 0;
+    }
+
 }
+
+
+//---------------------------------------------------
+//----------------------FOOTER-----------------------
+//---------------------------------------------------
 
 footer {
     display: flex;
