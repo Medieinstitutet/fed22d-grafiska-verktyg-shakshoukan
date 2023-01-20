@@ -1,5 +1,14 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9677287&assignment_repo_type=AssignmentRepo)
 
+![image](https://user-images.githubusercontent.com/114933424/213727936-4c6a8edd-5971-4fd1-848e-388cde6e621b.png)
+![image](https://user-images.githubusercontent.com/114933424/213728170-2bab7315-d906-45e1-bebb-6f921ca9cd98.png)
+![image](https://user-images.githubusercontent.com/114933424/213728363-84c30901-08f8-40d7-853e-be21dc6030d0.png)
+![image](https://user-images.githubusercontent.com/114933424/213728607-9357c586-7d10-4fcd-be22-788f1fecca10.png)
+![image](https://user-images.githubusercontent.com/114933424/213728952-5f3ef66b-cf74-4a60-8344-3bac805d5533.png)
+![image](https://user-images.githubusercontent.com/114933424/213729149-8d77c4fb-0c36-4f56-a540-ae671b99cde6.png)
+![image](https://user-images.githubusercontent.com/114933424/213729840-0dd1ed30-00f6-4cd1-be0f-ba9b5ece9a42.png)
+
+
 # About the design
 We decided to create a movie premiere design for a fictional movie called Welcome to Mars. The landing page contains a big image from the movie, the movie title and a short description as well as buttons for viewing the trailer and to read more information. The layout of the landing page is image-focused to give the user a good idea of the look and mood of the movie, and contains everything you need to find out more if you're interested. We've made three mockup views for mobile, tablet and desktop. The look and feel of the page should be similar on all three views but elements can shift for better and more efficient use of space and make a better user experience.
 
