@@ -23,7 +23,7 @@ header.hide {
     opacity: 0;
 }
 
-.marsIcon {
+header.marsIcon {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     height: 3rem;
@@ -445,6 +445,7 @@ p.notification {
     background: #000000;
     padding-bottom: 2.8rem;
     width: 100%;
+    z-index: 2;
 
     p {
         font-family: 'Inter';
